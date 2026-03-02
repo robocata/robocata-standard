@@ -1,0 +1,67 @@
+{
+  "field": "mobility_primary",
+  "version": "1.0",
+  "total_options": 12,
+  "options": [
+    {
+      "code": "AERIAL",
+      "label": "Aerial/Flying",
+      "description": "Robot flies through the air"
+    },
+    {
+      "code": "AQUA",
+      "label": "Aquatic/Swimming",
+      "description": "Robot moves through water"
+    },
+    {
+      "code": "BIPED",
+      "label": "Legged (Bipedal)",
+      "description": "Robot walks on two legs like humans"
+    },
+    {
+      "code": "GANTRY",
+      "label": "Gantry",
+      "description": "Robot moves on overhead gantry system"
+    },
+    {
+      "code": "HEX",
+      "label": "Legged (Hexapod)",
+      "description": "Robot walks on six legs"
+    },
+    {
+      "code": "HYBRID",
+      "label": "Hybrid",
+      "description": "Robot combines multiple mobility methods"
+    },
+    {
+      "code": "LEGGED",
+      "label": "Legged (Other)",
+      "description": "Robot walks on legs but not 2, 4, or 6"
+    },
+    {
+      "code": "QUAD",
+      "label": "Legged (Quadruped)",
+      "description": "Robot walks on four legs"
+    },
+    {
+      "code": "RAIL",
+      "label": "Rail-mounted",
+      "description": "Robot moves along fixed rails or tracks"
+    },
+    {
+      "code": "STAT",
+      "label": "Stationary/Fixed",
+      "description": "Robot is permanently fixed in one location"
+    },
+    {
+      "code": "TRACK",
+      "label": "Tracked",
+      "description": "Robot moves on continuous tracks like a tank"
+    },
+    {
+      "code": "WHEEL",
+      "label": "Wheeled",
+      "description": "Robot moves using wheels"
+    }
+  ]
+}

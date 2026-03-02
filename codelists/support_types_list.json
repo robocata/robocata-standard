@@ -1,0 +1,92 @@
+{
+  "field": "support_types_list",
+  "version": "1.0",
+  "total_options": 17,
+  "options": [
+    {
+      "code": "24_7",
+      "label": "24/7 Support",
+      "description": "Round-the-clock support availability"
+    },
+    {
+      "code": "CERTIFICATION",
+      "label": "Certification",
+      "description": "User certification programs offered"
+    },
+    {
+      "code": "CHAT",
+      "label": "Live Chat",
+      "description": "Real-time chat support"
+    },
+    {
+      "code": "EMAIL",
+      "label": "Email Support",
+      "description": "Email-based technical support"
+    },
+    {
+      "code": "FORUM",
+      "label": "Community Forum",
+      "description": "User community forum support"
+    },
+    {
+      "code": "KNOWLEDGE_BASE",
+      "label": "Knowledge Base",
+      "description": "Searchable knowledge base articles"
+    },
+    {
+      "code": "NONE",
+      "label": "No support",
+      "description": "No formal support provided"
+    },
+    {
+      "code": "ONLINE_DOCS",
+      "label": "Online Documentation",
+      "description": "Web-based documentation and manuals"
+    },
+    {
+      "code": "ONSITE",
+      "label": "On-site Service",
+      "description": "Technician visits customer location"
+    },
+    {
+      "code": "PARTNER_NET",
+      "label": "Partner Network",
+      "description": "Authorized partner support network"
+    },
+    {
+      "code": "PHONE",
+      "label": "Phone Support",
+      "description": "Telephone technical support"
+    },
+    {
+      "code": "REMOTE",
+      "label": "Remote Access",
+      "description": "Remote diagnostic and support access"
+    },
+    {
+      "code": "SLA",
+      "label": "SLA Available",
+      "description": "Service level ement options"
+    },
+    {
+      "code": "SPARE_PARTS",
+      "label": "Spare Parts",
+      "description": "Spare parts availability and support"
+    },
+    {
+      "code": "TRAINING",
+      "label": "Training Programs",
+      "description": "Formal training courses available"
+    },
+    {
+      "code": "VIDEO_TUT",
+      "label": "Video Tutorials",
+      "description": "Video training and tutorial content"
+    },
+    {
+      "code": "WARRANTY",
+      "label": "Warranty Support",
+      "description": "Standard warranty coverage"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "field": "smart_home_list",
+  "version": "1.0",
+  "total_options": 18,
+  "options": [
+    {
+      "code": "ALEXA",
+      "label": "Amazon Alexa",
+      "description": "Compatible with Amazon Alexa ecosystem"
+    },
+    {
+      "code": "GOOGLE",
+      "label": "Google Home",
+      "description": "Works with Google Assistant/Home"
+    },
+    {
+      "code": "HOME_ASSISTANT",
+      "label": "Home Assistant",
+      "description": "Home Assistant integration available"
+    },
+    {
+      "code": "HOMEKIT",
+      "label": "Apple HomeKit",
+      "description": "Apple HomeKit certified"
+    },
+    {
+      "code": "HUBITAT",
+      "label": "Hubitat",
+      "description": "Hubitat Elevation compatible"
+    },
+    {
+      "code": "IFTTT",
+      "label": "IFTTT",
+      "description": "If This Then That automation platform"
+    },
+    {
+      "code": "MATTER",
+      "label": "Matter",
+      "description": "Matter/Thread protocol support"
+    },
+    {
+      "code": "MQTT_BROKER",
+      "label": "MQTT Broker",
+      "description": "Connects to MQTT brokers"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No smart home integration"
+    },
+    {
+      "code": "OPENHAB",
+      "label": "openHAB",
+      "description": "openHAB smart home platform"
+    },
+    {
+      "code": "PROPRIETARY",
+      "label": "Proprietary Hub",
+      "description": "Requires proprietary smart hub"
+    },
+    {
+      "code": "REST_API",
+      "label": "REST API",
+      "description": "RESTful API for integration"
+    },
+    {
+      "code": "SIRI",
+      "label": "Siri Shortcuts",
+      "description": "Supports Apple Siri Shortcuts"
+    },
+    {
+      "code": "SMARTTHINGS",
+      "label": "SmartThings",
+      "description": "Samsung SmartThings compatible"
+    },
+    {
+      "code": "TUYA",
+      "label": "Tuya Smart",
+      "description": "Tuya Smart Life platform"
+    },
+    {
+      "code": "WEBHOOKS",
+      "label": "Webhooks",
+      "description": "Supports webhook integrations"
+    },
+    {
+      "code": "ZIGBEE_HUB",
+      "label": "Zigbee Hub",
+      "description": "Works with Zigbee hubs"
+    },
+    {
+      "code": "ZWAVE",
+      "label": "Z-Wave",
+      "description": "Z-Wave protocol support"
+    }
+  ]
+}

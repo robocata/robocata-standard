@@ -1,0 +1,102 @@
+{
+  "field": "service_option_list",
+  "version": "1.0",
+  "total_options": 19,
+  "options": [
+    {
+      "code": "ANNUAL",
+      "label": "Annual Contract",
+      "description": "Annual service contract"
+    },
+    {
+      "code": "BASIC",
+      "label": "Basic Support",
+      "description": "Basic support package"
+    },
+    {
+      "code": "CALIBRATION",
+      "label": "Calibration",
+      "description": "Calibration and validation services"
+    },
+    {
+      "code": "EXT_WARRANTY",
+      "label": "Extended Warranty",
+      "description": "Extended warranty beyond standard"
+    },
+    {
+      "code": "INSPECTION",
+      "label": "Inspection Service",
+      "description": "Regular inspection services"
+    },
+    {
+      "code": "LABOR_ONLY",
+      "label": "Labor Only",
+      "description": "Labor coverage, parts extra"
+    },
+    {
+      "code": "LEASE",
+      "label": "Lease Option",
+      "description": "Equipment leasing programs"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No service options available"
+    },
+    {
+      "code": "PARTS_LABOR",
+      "label": "Parts & Labor",
+      "description": "Coverage for parts and labor"
+    },
+    {
+      "code": "PARTS_ONLY",
+      "label": "Parts Only",
+      "description": "Parts coverage, labor extra"
+    },
+    {
+      "code": "PER_INCIDENT",
+      "label": "Per Incident",
+      "description": "Pay-per-incident service calls"
+    },
+    {
+      "code": "PREMIUM",
+      "label": "Premium Support",
+      "description": "Premium tier support package"
+    },
+    {
+      "code": "PREVENTATIVE",
+      "label": "Preventative Maintenance",
+      "description": "Scheduled preventative maintenance program"
+    },
+    {
+      "code": "REFURB",
+      "label": "Refurbishment",
+      "description": "Refurbishment services available"
+    },
+    {
+      "code": "RENTAL",
+      "label": "Rental Option",
+      "description": "Equipment rental programs available"
+    },
+    {
+      "code": "SUBSCRIPTION",
+      "label": "Subscription",
+      "description": "Monthly/annual subscription service"
+    },
+    {
+      "code": "TRADE_IN",
+      "label": "Trade-in Program",
+      "description": "Trade-in for newer models"
+    },
+    {
+      "code": "TRAINING_SVC",
+      "label": "Training Service",
+      "description": "Professional training services"
+    },
+    {
+      "code": "UPGRADE",
+      "label": "Upgrade Service",
+      "description": "Hardware/software upgrade services"
+    }
+  ]
+}

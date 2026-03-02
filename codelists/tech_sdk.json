@@ -1,0 +1,37 @@
+{
+  "field": "tech_sdk",
+  "version": "1.0",
+  "total_options": 6,
+  "options": [
+    {
+      "code": "FREE",
+      "label": "Yes - Free",
+      "description": "SDK available free but not open source"
+    },
+    {
+      "code": "LTD",
+      "label": "Limited",
+      "description": "Limited SDK with restricted functionality"
+    },
+    {
+      "code": "NONE",
+      "label": "Not available",
+      "description": "No SDK available"
+    },
+    {
+      "code": "OPEN",
+      "label": "Yes - Open Source",
+      "description": "SDK available as open source software"
+    },
+    {
+      "code": "PAID",
+      "label": "Yes - Paid",
+      "description": "SDK available for purchase"
+    },
+    {
+      "code": "SOON",
+      "label": "Coming Soon",
+      "description": "SDK announced but not yet available"
+    }
+  ]
+}

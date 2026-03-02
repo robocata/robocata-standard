@@ -1,0 +1,47 @@
+{
+  "field": "roi",
+  "version": "1.0",
+  "total_options": 8,
+  "options": [
+    {
+      "code": "12M",
+      "label": "6-12 months",
+      "description": "ROI achieved in 6 to 12 months"
+    },
+    {
+      "code": "18M",
+      "label": "12-18 months",
+      "description": "Payback period of 12 to 18 months"
+    },
+    {
+      "code": "24M",
+      "label": "18-24 months",
+      "description": "ROI in 18 to 24 months"
+    },
+    {
+      "code": "3YR",
+      "label": "2-3 years",
+      "description": "Return on investment in 2 to 3 years"
+    },
+    {
+      "code": "5YR",
+      "label": "3-5 years",
+      "description": "ROI achieved in 3 to 5 years"
+    },
+    {
+      "code": "6M",
+      "label": "<6 months",
+      "description": "Return on investment in less than 6 months"
+    },
+    {
+      "code": "NONE",
+      "label": "Not applicable",
+      "description": "ROI not applicable for this product type"
+    },
+    {
+      "code": "OVER",
+      "label": ">5 years",
+      "description": "Payback period exceeds 5 years"
+    }
+  ]
+}

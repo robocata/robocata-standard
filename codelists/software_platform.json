@@ -1,0 +1,87 @@
+{
+  "field": "software_platform",
+  "version": "1.0",
+  "total_options": 16,
+  "options": [
+    {
+      "code": "ANDROID",
+      "label": "Android",
+      "description": "Android OS for mobile robot platforms"
+    },
+    {
+      "code": "BARE_METAL",
+      "label": "Bare Metal",
+      "description": "No OS, direct hardware programming"
+    },
+    {
+      "code": "FREERTOS",
+      "label": "FreeRTOS",
+      "description": "Real-time OS for microcontrollers and embedded systems"
+    },
+    {
+      "code": "IOS",
+      "label": "iOS",
+      "description": "Apple iOS for robot control interfaces"
+    },
+    {
+      "code": "LINUX_RT",
+      "label": "Linux Real-Time",
+      "description": "Real-time Linux kernel for deterministic control"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "OS not specified or not relevant"
+    },
+    {
+      "code": "PROPRIETARY",
+      "label": "Proprietary OS",
+      "description": "Manufacturer's custom operating system"
+    },
+    {
+      "code": "QNX",
+      "label": "QNX",
+      "description": "Real-time Unix-like OS for embedded systems"
+    },
+    {
+      "code": "RASPBIAN",
+      "label": "Raspbian",
+      "description": "Raspberry Pi optimized Debian Linux"
+    },
+    {
+      "code": "ROS1",
+      "label": "ROS 1",
+      "description": "Robot Operating System version 1, widely adopted middleware"
+    },
+    {
+      "code": "ROS2",
+      "label": "ROS 2",
+      "description": "Robot Operating System version 2, improved real-time and security"
+    },
+    {
+      "code": "UBUNTU",
+      "label": "Ubuntu Linux",
+      "description": "Standard Ubuntu distribution, common base for ROS"
+    },
+    {
+      "code": "VXWORKS",
+      "label": "VxWorks",
+      "description": "Commercial RTOS for safety-critical applications"
+    },
+    {
+      "code": "WINDOWS",
+      "label": "Windows",
+      "description": "Microsoft Windows OS, typically for user interfaces"
+    },
+    {
+      "code": "WINDOWS_IOT",
+      "label": "Windows IoT",
+      "description": "Windows IoT Core for embedded systems"
+    },
+    {
+      "code": "YOCTO",
+      "label": "Yocto Linux",
+      "description": "Custom embedded Linux built with Yocto Project"
+    }
+  ]
+}

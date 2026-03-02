@@ -1,0 +1,52 @@
+{
+  "field": "warranty_months",
+  "version": "1.0",
+  "total_options": 9,
+  "options": [
+    {
+      "code": "LIFE",
+      "label": "Lifetime",
+      "description": "Lifetime warranty"
+    },
+    {
+      "code": "W0X",
+      "label": "No Warranty",
+      "description": "Product sold without warranty"
+    },
+    {
+      "code": "W12",
+      "label": "12 months",
+      "description": "One year warranty"
+    },
+    {
+      "code": "W24",
+      "label": "24 months",
+      "description": "Two year warranty"
+    },
+    {
+      "code": "W3X",
+      "label": "3 months",
+      "description": "Three month warranty period"
+    },
+    {
+      "code": "W36",
+      "label": "36 months",
+      "description": "Three year warranty"
+    },
+    {
+      "code": "W48",
+      "label": "48 months",
+      "description": "Four year warranty"
+    },
+    {
+      "code": "W6X",
+      "label": "6 months",
+      "description": "Six month warranty period"
+    },
+    {
+      "code": "W60",
+      "label": "60 months",
+      "description": "Five year warranty"
+    }
+  ]
+}

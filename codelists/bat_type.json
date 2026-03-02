@@ -1,0 +1,107 @@
+{
+  "field": "bat_type",
+  "version": "1.0",
+  "total_options": 20,
+  "options": [
+    {
+      "code": "AC_POWERED",
+      "label": "AC Powered",
+      "description": "Mains power only, no battery"
+    },
+    {
+      "code": "AGM",
+      "label": "AGM",
+      "description": "Absorbed glass mat battery"
+    },
+    {
+      "code": "ALKALINE",
+      "label": "Alkaline",
+      "description": "Standard alkaline batteries"
+    },
+    {
+      "code": "CUSTOM_PACK",
+      "label": "Custom Pack",
+      "description": "Proprietary battery design"
+    },
+    {
+      "code": "EXTERNAL",
+      "label": "External Power",
+      "description": "External power source only"
+    },
+    {
+      "code": "FUEL_CELL",
+      "label": "Fuel Cell",
+      "description": "Hydrogen fuel cell"
+    },
+    {
+      "code": "GEL",
+      "label": "Gel Battery",
+      "description": "Gel cell battery"
+    },
+    {
+      "code": "HYBRID_BATT",
+      "label": "Hybrid Battery",
+      "description": "Combination battery system"
+    },
+    {
+      "code": "LEAD_ACID",
+      "label": "Lead Acid",
+      "description": "Traditional lead-acid battery"
+    },
+    {
+      "code": "LIFEPO4",
+      "label": "LiFePO4",
+      "description": "Lithium iron phosphate battery"
+    },
+    {
+      "code": "LIPO",
+      "label": "LiPo",
+      "description": "Lithium polymer battery"
+    },
+    {
+      "code": "LION",
+      "label": "Lithium-ion",
+      "description": "Standard lithium-ion battery"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No battery system"
+    },
+    {
+      "code": "NICD",
+      "label": "NiCd",
+      "description": "Nickel-cadmium battery"
+    },
+    {
+      "code": "NIMH",
+      "label": "NiMH",
+      "description": "Nickel-metal hydride battery"
+    },
+    {
+      "code": "POE_POWERED",
+      "label": "PoE Powered",
+      "description": "Power over Ethernet only"
+    },
+    {
+      "code": "SOLID_STATE",
+      "label": "Solid State",
+      "description": "Solid state battery technology"
+    },
+    {
+      "code": "SUPER_CAP",
+      "label": "Supercapacitor",
+      "description": "Supercapacitor energy storage"
+    },
+    {
+      "code": "SWAPPABLE",
+      "label": "Swappable Pack",
+      "description": "Hot-swappable battery pack"
+    },
+    {
+      "code": "ZINC_AIR",
+      "label": "Zinc-Air",
+      "description": "Zinc-air battery"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "field": "processor_list",
+  "version": "1.0",
+  "total_options": 21,
+  "options": [
+    {
+      "code": "ARM_A53",
+      "label": "ARM Cortex-A53",
+      "description": "Efficient 64-bit ARM processor for embedded systems"
+    },
+    {
+      "code": "ARM_A57",
+      "label": "ARM Cortex-A57",
+      "description": "Performance-oriented 64-bit ARM processor"
+    },
+    {
+      "code": "ARM_A72",
+      "label": "ARM Cortex-A72",
+      "description": "High-performance 64-bit ARM processor"
+    },
+    {
+      "code": "ARM_M4",
+      "label": "ARM Cortex-M4",
+      "description": "Microcontroller with DSP capabilities for real-time control"
+    },
+    {
+      "code": "ARM_M7",
+      "label": "ARM Cortex-M7",
+      "description": "High-performance microcontroller for embedded systems"
+    },
+    {
+      "code": "DSP",
+      "label": "DSP Processor",
+      "description": "Digital signal processor for real-time signal processing"
+    },
+    {
+      "code": "ESP32",
+      "label": "ESP32",
+      "description": "Espressif dual-core processor with WiFi/Bluetooth"
+    },
+    {
+      "code": "FPGA",
+      "label": "FPGA",
+      "description": "Field-programmable gate array for custom logic"
+    },
+    {
+      "code": "INTEL_ATOM",
+      "label": "Intel Atom",
+      "description": "Low-power Intel processor for embedded applications"
+    },
+    {
+      "code": "INTEL_I3",
+      "label": "Intel Core i3",
+      "description": "Entry-level Intel processor for basic computing needs"
+    },
+    {
+      "code": "INTEL_I5",
+      "label": "Intel Core i5",
+      "description": "Mid-range Intel processor, good balance of power and efficiency"
+    },
+    {
+      "code": "INTEL_I7",
+      "label": "Intel Core i7",
+      "description": "High-performance Intel processor for complex computing"
+    },
+    {
+      "code": "INTEL_XEON",
+      "label": "Intel Xeon",
+      "description": "Server-grade processor for heavy computational loads"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "Processor type not specified or not relevant"
+    },
+    {
+      "code": "NVIDIA_JETSON",
+      "label": "NVIDIA Jetson",
+      "description": "GPU-accelerated ARM processor for AI applications"
+    },
+    {
+      "code": "NVIDIA_ORIN",
+      "label": "NVIDIA Orin",
+      "description": "Latest generation AI processor for robotics"
+    },
+    {
+      "code": "NVIDIA_XAVIER",
+      "label": "NVIDIA Xavier",
+      "description": "Advanced AI computing platform for autonomous machines"
+    },
+    {
+      "code": "PROPRIETARY",
+      "label": "Proprietary CPU",
+      "description": "Custom or undisclosed processor architecture"
+    },
+    {
+      "code": "RPI4",
+      "label": "Raspberry Pi 4",
+      "description": "Broadcom BCM2711, popular for hobby and education"
+    },
+    {
+      "code": "RPI5",
+      "label": "Raspberry Pi 5",
+      "description": "Broadcom BCM2712, latest Raspberry Pi processor"
+    },
+    {
+      "code": "STM32",
+      "label": "STM32",
+      "description": "STMicroelectronics ARM-based microcontroller family"
+    }
+  ]
+}

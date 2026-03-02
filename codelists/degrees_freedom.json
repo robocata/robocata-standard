@@ -1,0 +1,52 @@
+{
+  "field": "degrees_freedom",
+  "version": "1.0",
+  "total_options": 9,
+  "options": [
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "Not applicable, typically for mobile robots without arms"
+    },
+    {
+      "code": "8P",
+      "label": "8+",
+      "description": "Eight or more axes, typically humanoid or snake robots"
+    },
+    {
+      "code": "1",
+      "label": "1",
+      "description": "Single axis of movement, typically linear or rotational"
+    },
+    {
+      "code": "2",
+      "label": "2",
+      "description": "Two independent axes of movement"
+    },
+    {
+      "code": "3",
+      "label": "3",
+      "description": "Three axes, common in simple positioning systems"
+    },
+    {
+      "code": "4",
+      "label": "4",
+      "description": "Four axes, often SCARA robots or simple arms"
+    },
+    {
+      "code": "5",
+      "label": "5",
+      "description": "Five axes, less common but used in specific applications"
+    },
+    {
+      "code": "6",
+      "label": "6",
+      "description": "Six axes, standard for full 3D positioning and orientation"
+    },
+    {
+      "code": "7",
+      "label": "7",
+      "description": "Seven axes, adds redundancy for obstacle avoidance"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "field": "installation_type_list",
+  "version": "1.0",
+  "total_options": 21,
+  "options": [
+    {
+      "code": "CART_MOUNT",
+      "label": "Cart Mounted",
+      "description": "Mounted on mobile cart"
+    },
+    {
+      "code": "CEILING_MOUNT",
+      "label": "Ceiling-mounted",
+      "description": "Suspended from ceiling"
+    },
+    {
+      "code": "CLAMP_MOUNT",
+      "label": "Clamp Mount",
+      "description": "Clamped to existing structure"
+    },
+    {
+      "code": "CRANE_MOUNT",
+      "label": "Crane Mounted",
+      "description": "Mounted on crane or boom"
+    },
+    {
+      "code": "CUSTOM_FOUND",
+      "label": "Custom Foundation",
+      "description": "Requires custom foundation"
+    },
+    {
+      "code": "FLOOR_MOUNT",
+      "label": "Floor-mounted",
+      "description": "Bolted or fixed to floor"
+    },
+    {
+      "code": "FREE_STAND",
+      "label": "Free-standing",
+      "description": "Self-supporting, no mounting required"
+    },
+    {
+      "code": "GANTRY",
+      "label": "Gantry Mounted",
+      "description": "Mounted on gantry system"
+    },
+    {
+      "code": "INTEGRATED",
+      "label": "Integrated",
+      "description": "Built into larger system"
+    },
+    {
+      "code": "MAGNETIC",
+      "label": "Magnetic Mount",
+      "description": "Magnetic mounting system"
+    },
+    {
+      "code": "MOBILE",
+      "label": "Mobile/Portable",
+      "description": "Wheeled or easily portable"
+    },
+    {
+      "code": "MODULAR",
+      "label": "Modular System",
+      "description": "Modular mounting system"
+    },
+    {
+      "code": "NONE",
+      "label": "No Mounting",
+      "description": "No mounting required"
+    },
+    {
+      "code": "PEDESTAL",
+      "label": "Pedestal Mount",
+      "description": "Mounted on pedestal or column"
+    },
+    {
+      "code": "POLE_MOUNT",
+      "label": "Pole Mounted",
+      "description": "Mounted on pole or mast"
+    },
+    {
+      "code": "RACK_MOUNT",
+      "label": "Rack Mounted",
+      "description": "Standard rack mounting"
+    },
+    {
+      "code": "RAIL_SYSTEM",
+      "label": "Rail System",
+      "description": "Mounted on rail or track system"
+    },
+    {
+      "code": "SUSPENDED",
+      "label": "Suspended",
+      "description": "Hanging or suspended mounting"
+    },
+    {
+      "code": "TABLE_MOUNT",
+      "label": "Table/Bench",
+      "description": "Mounted on table or workbench"
+    },
+    {
+      "code": "VEHICLE_MOUNT",
+      "label": "Vehicle Mounted",
+      "description": "Mounted on vehicle"
+    },
+    {
+      "code": "WALL_MOUNT",
+      "label": "Wall-mounted",
+      "description": "Mounted on wall surface"
+    }
+  ]
+}

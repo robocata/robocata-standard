@@ -1,0 +1,22 @@
+{
+  "field": "obstacle",
+  "version": "1.0",
+  "total_options": 3,
+  "options": [
+    {
+      "code": "LTD",
+      "label": "Limited obstacle detection",
+      "description": "Basic obstacle detection or works only in certain conditions"
+    },
+    {
+      "code": "NONE",
+      "label": "No obstacle detection",
+      "description": "No obstacle detection or avoidance features"
+    },
+    {
+      "code": "EXT",
+      "label": "Extensive obstacle detection",
+      "description": "Full obstacle detection and avoidance capabilities"
+    }
+  ]
+}

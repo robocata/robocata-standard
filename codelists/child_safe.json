@@ -1,0 +1,32 @@
+{
+  "field": "child_safe",
+  "version": "1.0",
+  "total_options": 5,
+  "options": [
+    {
+      "code": "CHILD",
+      "label": "Yes - Designed for Children",
+      "description": "Specifically designed as safe for children"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "Not applicable (industrial/commercial use)"
+    },
+    {
+      "code": "NOT",
+      "label": "Not Safe for Children",
+      "description": "Not safe for children"
+    },
+    {
+      "code": "SUP",
+      "label": "With Supervision",
+      "description": "Requires adult supervision around children"
+    },
+    {
+      "code": "YES",
+      "label": "Yes – Safe",
+      "description": "Safe design suitable for children"
+    }
+  ]
+}

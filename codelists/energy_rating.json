@@ -1,0 +1,47 @@
+{
+  "field": "energy_rating",
+  "version": "1.0",
+  "total_options": 8,
+  "options": [
+    {
+      "code": "AX",
+      "label": "A",
+      "description": "Good energy efficiency"
+    },
+    {
+      "code": "APX",
+      "label": "A+",
+      "description": "High energy efficiency"
+    },
+    {
+      "code": "APPX",
+      "label": "A++",
+      "description": "Very high energy efficiency"
+    },
+    {
+      "code": "APPPX",
+      "label": "A+++",
+      "description": "Highest energy efficiency rating"
+    },
+    {
+      "code": "B",
+      "label": "B",
+      "description": "Above average energy efficiency"
+    },
+    {
+      "code": "C",
+      "label": "C",
+      "description": "Average energy efficiency"
+    },
+    {
+      "code": "D",
+      "label": "D",
+      "description": "Below average energy efficiency"
+    },
+    {
+      "code": "NR",
+      "label": "Not Rated",
+      "description": "No official energy efficiency rating"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "field": "sys_kinematic",
+  "version": "1.0",
+  "total_options": 13,
+  "options": [
+    {
+      "code": "ART6",
+      "label": "Articulated (6-axis)",
+      "description": "Six-axis articulated arm robot"
+    },
+    {
+      "code": "ART7",
+      "label": "Articulated (7-axis)",
+      "description": "Seven-axis articulated arm with redundancy"
+    },
+    {
+      "code": "CART",
+      "label": "Cartesian/Gantry",
+      "description": "Linear X-Y-Z movement system"
+    },
+    {
+      "code": "CYL",
+      "label": "Cylindrical",
+      "description": "Cylindrical coordinate system robot"
+    },
+    {
+      "code": "DELTA",
+      "label": "Delta/Parallel",
+      "description": "Parallel link delta robot configuration"
+    },
+    {
+      "code": "HUMAN",
+      "label": "Humanoid",
+      "description": "Human-like kinematic structure"
+    },
+    {
+      "code": "MACK",
+      "label": "Mobile Ackermann",
+      "description": "Car-like Ackermann steering geometry"
+    },
+    {
+      "code": "MDIFF",
+      "label": "Mobile Differential Drive",
+      "description": "Two-wheel differential drive mobile base"
+    },
+    {
+      "code": "MOMNI",
+      "label": "Mobile Omnidirectional",
+      "description": "Omnidirectional mobile base (mecanum/omni wheels)"
+    },
+    {
+      "code": "NONE",
+      "label": "Not applicable",
+      "description": "Kinematic configuration not applicable"
+    },
+    {
+      "code": "OTHER",
+      "label": "Other",
+      "description": "Non-standard kinematic configuration"
+    },
+    {
+      "code": "POLAR",
+      "label": "Polar/Spherical",
+      "description": "Spherical coordinate system robot"
+    },
+    {
+      "code": "SCARA",
+      "label": "SCARA",
+      "description": "Selective Compliance Articulated Robot Arm"
+    }
+  ]
+}

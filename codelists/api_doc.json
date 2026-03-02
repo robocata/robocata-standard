@@ -1,0 +1,42 @@
+{
+  "field": "api_doc",
+  "version": "1.0",
+  "total_options": 7,
+  "options": [
+    {
+      "code": "BASIC",
+      "label": "Basic API",
+      "description": "Simple command API with limited functionality"
+    },
+    {
+      "code": "EXCEL",
+      "label": "Excellent Documentation",
+      "description": "Well-documented API with examples and support"
+    },
+    {
+      "code": "GRAPH",
+      "label": "GraphQL API",
+      "description": "GraphQL API interface available"
+    },
+    {
+      "code": "LTD",
+      "label": "Limited Documentation",
+      "description": "API exists but documentation is minimal"
+    },
+    {
+      "code": "NONE",
+      "label": "No API",
+      "description": "No API available for this robot"
+    },
+    {
+      "code": "REST",
+      "label": "REST API",
+      "description": "RESTful web service API available"
+    },
+    {
+      "code": "SDK",
+      "label": "SDK - Multiple Languages",
+      "description": "Comprehensive SDK supporting multiple programming languages"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "field": "ip_rating",
+  "version": "1.0",
+  "total_options": 13,
+  "options": [
+    {
+      "code": "IP20",
+      "label": "IP20",
+      "description": "Protected against solid objects >12.5mm, no water protection"
+    },
+    {
+      "code": "IP30",
+      "label": "IP30",
+      "description": "Protected against solid objects >2.5mm, no water protection"
+    },
+    {
+      "code": "IP40",
+      "label": "IP40",
+      "description": "Protected against solid objects >1mm, no water protection"
+    },
+    {
+      "code": "IP42",
+      "label": "IP42",
+      "description": "Protected against objects >1mm, dripping water at 15°"
+    },
+    {
+      "code": "IP44",
+      "label": "IP44",
+      "description": "Protected against objects >1mm, splashing water"
+    },
+    {
+      "code": "IP54",
+      "label": "IP54",
+      "description": "Dust protected, splash protected"
+    },
+    {
+      "code": "IP55",
+      "label": "IP55",
+      "description": "Dust protected, water jet protected"
+    },
+    {
+      "code": "IP65",
+      "label": "IP65",
+      "description": "Dust tight, protected against water jets"
+    },
+    {
+      "code": "IP66",
+      "label": "IP66",
+      "description": "Dust tight, protected against powerful water jets"
+    },
+    {
+      "code": "IP67",
+      "label": "IP67",
+      "description": "Dust tight, protected against temporary immersion"
+    },
+    {
+      "code": "IP68",
+      "label": "IP68",
+      "description": "Dust tight, protected against continuous immersion"
+    },
+    {
+      "code": "IP69K",
+      "label": "IP69K",
+      "description": "Dust tight, protected against high pressure/temperature water"
+    },
+    {
+      "code": "NR",
+      "label": "Not Rated",
+      "description": "No IP rating assigned or tested"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "field": "mod_friendly",
+  "version": "1.0",
+  "total_options": 5,
+  "options": [
+    {
+      "code": "ENC",
+      "label": "Encouraged",
+      "description": "Manufacturer encourages modifications and customization"
+    },
+    {
+      "code": "LOCK",
+      "label": "Locked/Proprietary",
+      "description": "Closed system, modifications void warranty or impossible"
+    },
+    {
+      "code": "LTD",
+      "label": "Limited Modifications",
+      "description": "Some modifications possible but restricted"
+    },
+    {
+      "code": "MOD",
+      "label": "Moderate - Warranty Void",
+      "description": "Modifications possible but void warranty"
+    },
+    {
+      "code": "OPEN",
+      "label": "Open Hardware",
+      "description": "Fully open hardware design with published schematics"
+    }
+  ]
+}

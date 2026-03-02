@@ -1,0 +1,37 @@
+{
+  "field": "collaboration",
+  "version": "1.0",
+  "total_options": 6,
+  "options": [
+    {
+      "code": "FULL",
+      "label": "Full Collaborative",
+      "description": "Designed for direct human collaboration"
+    },
+    {
+      "code": "HAND",
+      "label": "Hand Guiding",
+      "description": "Can be physically guided by human hands"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Collaborative",
+      "description": "Requires safety barriers, cannot work near humans"
+    },
+    {
+      "code": "POWER",
+      "label": "Power & Force Limited",
+      "description": "Inherently safe through limited force"
+    },
+    {
+      "code": "SPEED",
+      "label": "Speed & Separation",
+      "description": "Adjusts speed based on human proximity"
+    },
+    {
+      "code": "STOP",
+      "label": "Safety Monitored Stop",
+      "description": "Stops when humans enter workspace"
+    }
+  ]
+}

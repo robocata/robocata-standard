@@ -1,0 +1,32 @@
+{
+  "field": "dynamic_model",
+  "version": "1.0",
+  "total_options": 5,
+  "options": [
+    {
+      "code": "CAD",
+      "label": "Yes - STEP/CAD",
+      "description": "CAD models in STEP or similar format available"
+    },
+    {
+      "code": "NONE",
+      "label": "Not available",
+      "description": "No simulation model available"
+    },
+    {
+      "code": "PROP",
+      "label": "Yes - Proprietary",
+      "description": "Proprietary format simulation model available"
+    },
+    {
+      "code": "REQ",
+      "label": "On Request",
+      "description": "Model available upon request to manufacturer"
+    },
+    {
+      "code": "URDF",
+      "label": "Yes - URDF",
+      "description": "Universal Robot Description Format model available"
+    }
+  ]
+}

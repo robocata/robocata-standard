@@ -1,0 +1,9 @@
+{
+  "_canonical_version": "1.0",
+  "robot_code": "RBC-AR-PR-IRB1400",
+  "info_name": "IRB 1400",
+  "manufacturer_text": "ABB",
+  "type": "ARM",
+  "domain": "IND",
+  "category": "PROD"
+}

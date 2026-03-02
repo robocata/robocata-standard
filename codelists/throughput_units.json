@@ -1,0 +1,47 @@
+{
+  "field": "throughput_units",
+  "version": "1.0",
+  "total_options": 8,
+  "options": [
+    {
+      "code": "UPH",
+      "label": "units/hour",
+      "description": "Number of units processed per hour"
+    },
+    {
+      "code": "CPM",
+      "label": "cycles/minute",
+      "description": "Number of complete cycles per minute"
+    },
+    {
+      "code": "KGH",
+      "label": "kg/hour",
+      "description": "Kilograms processed per hour"
+    },
+    {
+      "code": "PPH",
+      "label": "pieces/hour",
+      "description": "Number of pieces handled per hour"
+    },
+    {
+      "code": "M2H",
+      "label": "mÂ²/hour",
+      "description": "Square meters covered per hour"
+    },
+    {
+      "code": "CUST",
+      "label": "custom",
+      "description": "Custom measurement specific to application"
+    },
+    {
+      "code": "NONE",
+      "label": "Not applicable",
+      "description": "Throughput measurement not applicable"
+    },
+    {
+      "code": "UPD",
+      "label": "units/day",
+      "description": "Number of units processed per day"
+    }
+  ]
+}

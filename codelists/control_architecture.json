@@ -1,0 +1,47 @@
+{
+  "field": "control_architecture",
+  "version": "1.0",
+  "total_options": 8,
+  "options": [
+    {
+      "code": "BEHAV",
+      "label": "Behavior-based",
+      "description": "Behavior-based robotics architecture"
+    },
+    {
+      "code": "CENT",
+      "label": "Centralized",
+      "description": "Single central controller manages all functions"
+    },
+    {
+      "code": "CLOUD",
+      "label": "Cloud-based",
+      "description": "Processing primarily in cloud servers"
+    },
+    {
+      "code": "DIST",
+      "label": "Distributed",
+      "description": "Multiple controllers work together"
+    },
+    {
+      "code": "EDGE",
+      "label": "Edge Computing",
+      "description": "Local AI processing at the edge"
+    },
+    {
+      "code": "HIER",
+      "label": "Hierarchical",
+      "description": "Layered control with multiple levels"
+    },
+    {
+      "code": "HYBRID",
+      "label": "Hybrid",
+      "description": "Combination of control architectures"
+    },
+    {
+      "code": "UNK",
+      "label": "Unknown",
+      "description": "Control architecture not documented"
+    }
+  ]
+}

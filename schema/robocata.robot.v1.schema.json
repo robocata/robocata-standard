@@ -1,0 +1,2156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://robocata.org/schema/robocata.robot.v1.schema.json",
+  "title": "RoboCata Robot Record",
+  "description": "A robot record conformant with RoboCata Standard V1.0 (March 2026).",
+  "type": "object",
+  "required": [
+    "robot_code",
+    "info_name",
+    "manufacturer_text",
+    "type",
+    "domain",
+    "category"
+  ],
+  "properties": {
+    "_canonical_version": {
+      "type": "string",
+      "description": "RoboCata Standard version this record conforms to",
+      "const": "1.0"
+    },
+    "robot_code": {
+      "description": "Unique RoboCata identifier  (format: RBC-TT-CC-XXXXXXX)",
+      "type": "string"
+    },
+    "info_name": {
+      "description": "Full product name (e.g., \"IRB 1400\", \"Spot Enterprise\")",
+      "type": "string"
+    },
+    "manufacturer_text": {
+      "description": "Company name (e.g., \"ABB\", \"Boston Dynamics\")",
+      "type": "string"
+    },
+    "type": {
+      "description": "Physical form factor classification (e.g., \"Robotic Arm\", \"Mobile Platform\")",
+      "type": "string",
+      "enum": [
+        "ARM",
+        "MOBI",
+        "BIPD",
+        "QUAD",
+        "HEXA",
+        "AERI",
+        "AQUA",
+        "SERP",
+        "SPHR",
+        "SOFT",
+        "WEAR",
+        "VEHI",
+        "APPL",
+        "SWRM",
+        "HYBR"
+      ]
+    },
+    "domain": {
+      "description": "Application domain â€” PRO (Professional & Services), HOME (Home & Consumer), IND (Industrial & Manufacturing)",
+      "type": "string",
+      "enum": [
+        "HOME",
+        "IND",
+        "PRO"
+      ]
+    },
+    "category": {
+      "description": "Primary application category (e.g., \"Medical & Healthcare\", \"Production & Assembly\")",
+      "type": "string",
+      "enum": [
+        "AGR",
+        "CARE",
+        "CHILD",
+        "CLEAN",
+        "COMP",
+        "CONST",
+        "COOK",
+        "EDU",
+        "ENT",
+        "HCLEAN",
+        "HEAVY",
+        "HOSP",
+        "INFRA",
+        "LAB",
+        "LAND",
+        "MED",
+        "OFF",
+        "PACK",
+        "PROD",
+        "QC",
+        "RET",
+        "SPORTH",
+        "SPORTP",
+        "SQH",
+        "SQP",
+        "TRANS",
+        "VET",
+        "WELD",
+        "YARD"
+      ]
+    },
+    "info_model": {
+      "description": "Model designation, if different from the product name",
+      "type": "string"
+    },
+    "info_model_number": {
+      "description": "Alphanumeric model number for the specific variant",
+      "type": "string"
+    },
+    "info_id": {
+      "description": "Manufacturerâ€™s unique product identifier or SKU",
+      "type": "string"
+    },
+    "info_productline": {
+      "description": "Product line or family name (e.g., \"GoFa\")",
+      "type": "string"
+    },
+    "short_description": {
+      "description": "Catalog summary for listings (40â€“100 words)",
+      "type": "string"
+    },
+    "description_detailed": {
+      "description": "Full description covering capabilities, applications, features (80â€“200 words)",
+      "type": "string"
+    },
+    "description_long": {
+      "description": "Extended narrative description (2â€“5 sentences) for SEO and detail pages",
+      "type": "string"
+    },
+    "current_version": {
+      "description": "Current software or hardware version number",
+      "type": "string"
+    },
+    "product_url": {
+      "description": "Link to the manufacturerâ€™s official product page",
+      "type": "string",
+      "format": "uri"
+    },
+    "github_url": {
+      "description": "Link to open-source repository if available",
+      "type": "string",
+      "format": "uri"
+    },
+    "github_repos": {
+      "description": "Number of GitHub repositories related to this robot",
+      "type": "integer",
+      "minimum": 0
+    },
+    "meta_tags": {
+      "description": "Keywords and tags for search optimization",
+      "type": "string"
+    },
+    "info_status": {
+      "description": "Availability status (e.g. In Production, Pre-order, Coming Soon, Prototype).",
+      "type": "string",
+      "enum": [
+        "DISC",
+        "LIMITED",
+        "PREORD",
+        "PROD",
+        "PROTO",
+        "SOON"
+      ]
+    },
+    "info_release_year": {
+      "description": "Year the robot was first released or announced",
+      "type": "integer"
+    },
+    "info_status_since_date": {
+      "description": "Date when the status became effective",
+      "type": "string",
+      "format": "date"
+    },
+    "media_primaryimage": {
+      "description": "URL of the primary product image (used for thumbnails, OG tags, listings)",
+      "type": "string",
+      "format": "uri"
+    },
+    "images": {
+      "description": "Array of image URLs for the robot gallery",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "media_video_url": {
+      "description": "Primary product video (YouTube/Vimeo link or MP4)",
+      "type": "string",
+      "format": "uri"
+    },
+    "media_demovideo_url": {
+      "description": "Demonstration video showing the robot in operation",
+      "type": "string",
+      "format": "uri"
+    },
+    "media_360view_url": {
+      "description": "Interactive 360-degree view URL",
+      "type": "string",
+      "format": "uri"
+    },
+    "media_brochure_url": {
+      "description": "Link to marketing brochure PDF. Documents should be provided in PDF format unless otherwise specified.",
+      "type": "string",
+      "format": "uri"
+    },
+    "media_datasheet_url": {
+      "description": "Link to technical datasheet PDF. Documents should be provided in PDF format unless otherwise specified.",
+      "type": "string",
+      "format": "uri"
+    },
+    "dimensions_weight_kg": {
+      "description": "Total robot weight without payload",
+      "type": "number",
+      "minimum": 0
+    },
+    "dimensions_height_mm": {
+      "description": "Overall height",
+      "type": "number",
+      "minimum": 0
+    },
+    "dimensions_width_mm": {
+      "description": "Overall width",
+      "type": "number",
+      "minimum": 0
+    },
+    "dimensions_depth_mm": {
+      "description": "Overall depth or length",
+      "type": "number",
+      "minimum": 0
+    },
+    "length_mm": {
+      "description": "Additional length measurement (if depth != length)",
+      "type": "number",
+      "minimum": 0
+    },
+    "reach_mm": {
+      "description": "Maximum operational reach distance",
+      "type": "number",
+      "minimum": 0
+    },
+    "reach_max_mm": {
+      "description": "Maximum reach distance (extended arm)",
+      "type": "number",
+      "minimum": 0
+    },
+    "payload_max_kg": {
+      "description": "Maximum payload capacity",
+      "type": "number",
+      "minimum": 0
+    },
+    "payload_rated_kg": {
+      "description": "Rated (nominal) payload capacity",
+      "type": "number",
+      "minimum": 0
+    },
+    "wrist_payload_kg": {
+      "description": "Wrist/end-effector payload capacity",
+      "type": "number",
+      "minimum": 0
+    },
+    "payload_capacity_kg": {
+      "description": "Total weight including max payload",
+      "type": "number",
+      "minimum": 0
+    },
+    "working_envelope": {
+      "description": "Description of reachable workspace geometry",
+      "type": "string"
+    },
+    "footprint_area": {
+      "description": "Floor space required (e.g., \"600Ã—600 mm\")",
+      "type": "string"
+    },
+    "material_construction": {
+      "description": "Primary construction material (aluminum, steel, carbon fiber)",
+      "type": "string"
+    },
+    "mounting_options": {
+      "description": "Mounting configurations (floor, ceiling, wall, rail)",
+      "type": "string"
+    },
+    "mobility_primary": {
+      "description": "Primary locomotion type (see Mobility codes)",
+      "type": "string",
+      "enum": [
+        "AERIAL",
+        "AQUA",
+        "BIPED",
+        "GANTRY",
+        "HEX",
+        "HYBRID",
+        "LEGGED",
+        "QUAD",
+        "RAIL",
+        "STAT",
+        "TRACK",
+        "WHEEL"
+      ]
+    },
+    "mobility_secondary_list": {
+      "description": "Secondary/alternative mobility modes",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AERIAL",
+          "AQUA",
+          "BIPED",
+          "GANTRY",
+          "HEX",
+          "HYBRID",
+          "LEGGED",
+          "QUAD",
+          "RAIL",
+          "STAT",
+          "TRACK",
+          "WHEEL"
+        ]
+      }
+    },
+    "tech_maxspeedvalue": {
+      "description": "Maximum speed as raw numeric value",
+      "type": "number",
+      "minimum": 0
+    },
+    "speed_mobile_ms": {
+      "description": "Maximum movement speed in meters per second",
+      "type": "number",
+      "minimum": 0
+    },
+    "speed_class": {
+      "description": "Speed classification category",
+      "type": "string"
+    },
+    "tech_speedunit": {
+      "description": "Unit for speed measurement (m/s, mm/s, cm/s, RPM)",
+      "type": "string",
+      "enum": [
+        "CM_S",
+        "CYCLE",
+        "M_S",
+        "M2H",
+        "MM_S",
+        "NONE",
+        "RPM",
+        "UPH"
+      ]
+    },
+    "degrees_freedom": {
+      "description": "Number of degrees of freedom (joints/axes)",
+      "type": "string",
+      "enum": [
+        "NONE",
+        "8P",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "sys_kinematic": {
+      "description": "Kinematic structure (articulated, SCARA, delta, cartesian)",
+      "type": "string",
+      "enum": [
+        "ART6",
+        "ART7",
+        "CART",
+        "CYL",
+        "DELTA",
+        "HUMAN",
+        "MACK",
+        "MDIFF",
+        "MOMNI",
+        "NONE",
+        "OTHER",
+        "POLAR",
+        "SCARA"
+      ]
+    },
+    "joint_specs": {
+      "description": "Detailed joint specifications",
+      "type": "string"
+    },
+    "joint_speeds": {
+      "description": "Individual joint rotation speeds (Â°/s per axis)",
+      "type": "string"
+    },
+    "joint_rotation_range": {
+      "description": "Joint rotation range (Â±degrees per axis)",
+      "type": "string"
+    },
+    "joint_torque_max": {
+      "description": "Maximum torque per joint (Nm)",
+      "type": "string"
+    },
+    "repeatability_position_mm": {
+      "description": "Position repeatability accuracy",
+      "type": "number",
+      "minimum": 0
+    },
+    "acceleration_max": {
+      "description": "Maximum acceleration specification",
+      "type": "string"
+    },
+    "dynamic_model": {
+      "description": "Available dynamic model format (URDF, STEP, CAD)",
+      "type": "string",
+      "enum": [
+        "CAD",
+        "NONE",
+        "PROP",
+        "REQ",
+        "URDF"
+      ]
+    },
+    "moment_of_inertia": {
+      "description": "Moment of inertia at wrist flange",
+      "type": "string"
+    },
+    "backlash_arcmin": {
+      "description": "Backlash in arc minutes",
+      "type": "number",
+      "minimum": 0
+    },
+    "navigation_list": {
+      "description": "All navigation systems (SLAM, GPS, VSLAM, LiDAR, wire-guided)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "BLUETOOTH",
+          "DGPS",
+          "GPS",
+          "HYBRID",
+          "IMU",
+          "LIDAR_2D",
+          "LIDAR_3D",
+          "LINE_FOLLOW",
+          "MANUAL",
+          "MARKER",
+          "NONE",
+          "ODOMETRY",
+          "RAIL",
+          "RTK_GPS",
+          "SLAM_2D",
+          "SLAM_3D",
+          "TEACH_PLAYBACK",
+          "UWB",
+          "VISION",
+          "VSLAM",
+          "WIFI",
+          "WIRE"
+        ]
+      }
+    },
+    "navigation_system": {
+      "description": "Primary navigation system description",
+      "type": "string"
+    },
+    "path_planning": {
+      "description": "Path planning algorithm (A*, RRT, potential fields)",
+      "type": "string"
+    },
+    "mapping_capability": {
+      "description": "Mapping capability (SLAM, pre-mapped, dynamic)",
+      "type": "string"
+    },
+    "localization_method": {
+      "description": "Localization method (LiDAR, visual, UWB, GPS)",
+      "type": "string"
+    },
+    "obstacle_avoidance": {
+      "description": "Obstacle avoidance method (reactive, predictive, 3D)",
+      "type": "string"
+    },
+    "obstacle": {
+      "description": "Obstacle detection capability (None, Limited, Extensive)",
+      "type": "string",
+      "enum": [
+        "LTD",
+        "NONE",
+        "EXT"
+      ]
+    },
+    "multifloor": {
+      "description": "Multi-floor capability (None, Single, Multi)",
+      "type": "string",
+      "enum": [
+        "NONE",
+        "SINGLE",
+        "MULTI"
+      ]
+    },
+    "powersource": {
+      "description": "Primary power type (AC Mains, Battery, Pneumatic, Solar)",
+      "type": "string",
+      "enum": [
+        "AC110",
+        "AC220",
+        "AC380",
+        "DC",
+        "FUEL",
+        "HYBRID",
+        "HYDR",
+        "LEAD",
+        "LION",
+        "LIPO",
+        "NIMH",
+        "PNEUM",
+        "SOLAR"
+      ]
+    },
+    "powersource_secondary_list": {
+      "description": "Secondary/backup power sources",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AC110",
+          "AC220",
+          "AC380",
+          "DC",
+          "FUEL",
+          "HYBRID",
+          "HYDR",
+          "LEAD",
+          "LION",
+          "LIPO",
+          "NIMH",
+          "PNEUM",
+          "SOLAR"
+        ]
+      }
+    },
+    "power_voltage_min": {
+      "description": "Minimum operating voltage",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_voltage_max": {
+      "description": "Maximum operating voltage",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_phases": {
+      "description": "Number of power phases (1/3)",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_frequency_hz": {
+      "description": "Power frequency (50/60 Hz)",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_consumption_normaluse_w": {
+      "description": "Typical power consumption during normal use",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_consumption_peakuse_w": {
+      "description": "Peak power consumption",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_consumption_standby_w": {
+      "description": "Standby power consumption",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_consumption_max_w": {
+      "description": "Maximum power consumption",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_batterycap_kwh": {
+      "description": "Total battery energy capacity",
+      "type": "number",
+      "minimum": 0
+    },
+    "battery_life_hours": {
+      "description": "Runtime on full charge under normal use",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_battchargetime_minutes": {
+      "description": "Time to fully recharge battery",
+      "type": "number",
+      "minimum": 0
+    },
+    "power_detachablebattery": {
+      "description": "Whether battery can be swapped",
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "bat_type": {
+      "description": "Battery chemistry (Li-Ion, LiPo, LiFePO4, NiMH)",
+      "type": "string",
+      "enum": [
+        "AC_POWERED",
+        "AGM",
+        "ALKALINE",
+        "CUSTOM_PACK",
+        "EXTERNAL",
+        "FUEL_CELL",
+        "GEL",
+        "HYBRID_BATT",
+        "LEAD_ACID",
+        "LIFEPO4",
+        "LIPO",
+        "LION",
+        "NONE",
+        "NICD",
+        "NIMH",
+        "POE_POWERED",
+        "SOLID_STATE",
+        "SUPER_CAP",
+        "SWAPPABLE",
+        "ZINC_AIR"
+      ]
+    },
+    "charger_type": {
+      "description": "Charger specifications and type",
+      "type": "string"
+    },
+    "energy_rating": {
+      "description": "Energy efficiency rating (A+++ to D)",
+      "type": "string",
+      "enum": [
+        "AX",
+        "APX",
+        "APPX",
+        "APPPX",
+        "B",
+        "C",
+        "D",
+        "NR"
+      ]
+    },
+    "cons_usd_month": {
+      "description": "Estimated monthly operating/energy cost",
+      "type": "number",
+      "minimum": 0
+    },
+    "cycle_time_typical": {
+      "description": "Typical time to complete one operational cycle",
+      "type": "string"
+    },
+    "duty_cycle": {
+      "description": "Operating duty cycle (continuous, intermittent, %)",
+      "type": "string"
+    },
+    "throughput_capacity": {
+      "description": "Throughput capacity description",
+      "type": "string"
+    },
+    "throughput_amount_min": {
+      "description": "Minimum throughput quantity",
+      "type": "number",
+      "minimum": 0
+    },
+    "throughput_amount_def": {
+      "description": "Default/typical throughput quantity",
+      "type": "number",
+      "minimum": 0
+    },
+    "throughput_amount_max": {
+      "description": "Maximum throughput quantity",
+      "type": "number",
+      "minimum": 0
+    },
+    "throughput_units": {
+      "description": "Throughput measurement unit (units/hr, cycles/min, kg/hr)",
+      "type": "string",
+      "enum": [
+        "UPH",
+        "CPM",
+        "KGH",
+        "PPH",
+        "M2H",
+        "CUST",
+        "NONE",
+        "UPD"
+      ]
+    },
+    "mtbf_hours": {
+      "description": "Mean time between failures",
+      "type": "number",
+      "minimum": 0
+    },
+    "uptime_pct": {
+      "description": "Expected operational uptime",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "control_frequency_hz": {
+      "description": "Control loop frequency",
+      "type": "number",
+      "minimum": 0
+    },
+    "tech_min_temp_celsius": {
+      "description": "Minimum operating temperature (temperature of robot)",
+      "type": "number"
+    },
+    "tech_max_temp_celsius": {
+      "description": "Maximum operating temperature (temperature of robot)",
+      "type": "number"
+    },
+    "environment_temp_min_c": {
+      "description": "Minimum environmental temperature",
+      "type": "number"
+    },
+    "environment_temp_max_c": {
+      "description": "Maximum environmental temperature",
+      "type": "number"
+    },
+    "storage_temp_min_c": {
+      "description": "Minimum storage temperature",
+      "type": "number"
+    },
+    "storage_temp_max_c": {
+      "description": "Maximum storage temperature",
+      "type": "number"
+    },
+    "operating_temperature_range": {
+      "description": "Full operating temperature range description",
+      "type": "string"
+    },
+    "environment_humidity_min": {
+      "description": "Minimum relative humidity",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "environment_humidity_max": {
+      "description": "Maximum relative humidity",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "operating_altitude_max": {
+      "description": "Maximum operating altitude above sea level",
+      "type": "number",
+      "minimum": 0
+    },
+    "ip_rating": {
+      "description": "Ingress Protection rating (e.g., IP54, IP67, IP69K)",
+      "type": "string",
+      "enum": [
+        "IP20",
+        "IP30",
+        "IP40",
+        "IP42",
+        "IP44",
+        "IP54",
+        "IP55",
+        "IP65",
+        "IP66",
+        "IP67",
+        "IP68",
+        "IP69K",
+        "NR"
+      ]
+    },
+    "ip_rating_text": {
+      "description": "IP rating description and what it means",
+      "type": "string"
+    },
+    "noise_level_db": {
+      "description": "Acoustic noise output during operation",
+      "type": "number",
+      "minimum": 0
+    },
+    "environment": {
+      "description": "General environment description",
+      "type": "string"
+    },
+    "environment_type_list": {
+      "description": "Suitable environments (Indoor, Outdoor, Cleanroom, Hazardous)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ALL_WEATHER",
+          "CHEMICAL",
+          "CLEANROOM",
+          "CORROSIVE",
+          "DUSTY",
+          "EXPLOSIVE",
+          "EXTREME_TEMP",
+          "FOOD_SAFE",
+          "HAZARDOUS",
+          "HIGH_TEMP",
+          "INDOOR",
+          "LOW_TEMP",
+          "MAGNETIC",
+          "MARINE",
+          "OFFICE",
+          "OUTDOOR",
+          "PHARMA",
+          "RADIATION",
+          "SPACE",
+          "STERILE",
+          "UNDERGROUND",
+          "UNDERWATER",
+          "VIBRATION",
+          "WET_HUMID"
+        ]
+      }
+    },
+    "explosion_proof": {
+      "description": "Certified for explosive atmospheres (ATEX/IECEx)",
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "ex_rating": {
+      "description": "Explosion protection rating details",
+      "type": "string"
+    },
+    "washdown_capability": {
+      "description": "Can be cleaned with pressurized water",
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "safety_feat_list": {
+      "description": "Safety features (E-stop, PFL, collision detection, safe zones)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AUDIO_WARN",
+          "BRAKE",
+          "COLLISION_DET",
+          "DUAL_CHANNEL",
+          "ENABLING_DEV",
+          "ESTOP",
+          "HAND_GUIDE",
+          "INTERLOCK",
+          "LASER_SCANNER",
+          "LIGHT_CURTAIN",
+          "NONE",
+          "PFL",
+          "PROTECTIVE_STOP",
+          "SAFE_SPEED",
+          "SAFE_STOP",
+          "SAFE_TORQUE",
+          "SAFE_ZONES",
+          "SKIN_SENSOR",
+          "SRMS",
+          "VISION_SAFETY",
+          "VISUAL_WARN"
+        ]
+      }
+    },
+    "safety_compliance_list": {
+      "description": "Compliance certification and standards (CE, FDA, ISO, HACCP, ATEX, MIL-STD)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AEC_Q100",
+          "ATEX",
+          "FDA",
+          "FOOD_EU",
+          "FOOD_FDA",
+          "GMP",
+          "HACCP",
+          "ISO1",
+          "ISO3",
+          "ISO5",
+          "ISO7",
+          "MDC_I",
+          "MDC_II",
+          "MDC_III",
+          "MIL_STD",
+          "NONE"
+        ]
+      }
+    },
+    "safety_compliance_text": {
+      "description": "Detailed compliance information",
+      "type": "string"
+    },
+    "safety_category": {
+      "description": "Safety category classification (PLd, PLe, SIL2, SIL3)",
+      "type": "string"
+    },
+    "functional_safety": {
+      "description": "Functional safety level per ISO 13849",
+      "type": "string"
+    },
+    "collision_detection": {
+      "description": "Collision detection method and sensitivity",
+      "type": "string"
+    },
+    "emergency_stop": {
+      "description": "E-stop configuration (Cat 0/1/2, circuits)",
+      "type": "string"
+    },
+    "force_feedback": {
+      "description": "Force feedback capability and sensitivity",
+      "type": "string"
+    },
+    "child_safe": {
+      "description": "Child safety rating (Yes/No/With Supervision)",
+      "type": "string",
+      "enum": [
+        "CHILD",
+        "NONE",
+        "NOT",
+        "SUP",
+        "YES"
+      ]
+    },
+    "pet_safe": {
+      "description": "Pet safety rating (Yes/No/With Precautions)",
+      "type": "string",
+      "enum": [
+        "NONE",
+        "NOT",
+        "PREC",
+        "YES"
+      ]
+    },
+    "dust_resistance": {
+      "description": "Dust resistance level and testing",
+      "type": "string"
+    },
+    "vibration_resistance": {
+      "description": "Vibration resistance level and testing",
+      "type": "string"
+    },
+    "cleanroom_rating": {
+      "description": "Cleanroom compatibility class (ISO 3/5/7)",
+      "type": "string"
+    },
+    "connectivity": {
+      "description": "Industrial protocols (EtherNet/IP, PROFINET, EtherCAT)",
+      "type": "string"
+    },
+    "connectivity_list": {
+      "description": "All connectivity options with codes",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "4G_LTE",
+          "5G",
+          "BT",
+          "BT_LE",
+          "CAN",
+          "DEVICENET",
+          "ETH",
+          "ETHERCAT",
+          "IR",
+          "LORA",
+          "MODBUS",
+          "MQTT",
+          "NONE",
+          "NFC",
+          "OPCUA",
+          "PROFIBUS",
+          "PROFINET",
+          "RS232",
+          "RS485",
+          "USB",
+          "USB_C",
+          "WIFI",
+          "WIFI6",
+          "WIFI7",
+          "ZIGBEE"
+        ]
+      }
+    },
+    "wireless_protocols": {
+      "description": "Wireless protocols (WiFi, Bluetooth, 5G, LoRa, Zigbee)",
+      "type": "string"
+    },
+    "ethernet_ports": {
+      "description": "Number and type of Ethernet ports",
+      "type": "integer",
+      "minimum": 0
+    },
+    "usb_ports": {
+      "description": "Number and type of USB ports",
+      "type": "integer",
+      "minimum": 0
+    },
+    "io_digital": {
+      "description": "Number of digital input/output channels",
+      "type": "string"
+    },
+    "io_analog": {
+      "description": "Number of analog input/output channels",
+      "type": "string"
+    },
+    "control_interface": {
+      "description": "Primary control interface type",
+      "type": "string"
+    },
+    "control_interface_list": {
+      "description": "All control interfaces (teach pendant, mobile app, web, API)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "API",
+          "AR",
+          "BLUETOOTH_CTL",
+          "CLI",
+          "GESTURE",
+          "HMI_PANEL",
+          "JOYSTICK",
+          "MOBILE_ANDROID",
+          "MOBILE_IOS",
+          "NONE",
+          "PC_SW",
+          "PHYSICAL_BTN",
+          "REMOTE_RC",
+          "TEACH_PENDANT",
+          "TOUCHSCREEN",
+          "VOICE",
+          "VR",
+          "WEB_IF"
+        ]
+      }
+    },
+    "communication_protocol_details": {
+      "description": "Detailed protocol specs and versions",
+      "type": "string"
+    },
+    "iot_integration": {
+      "description": "IoT platform integration capability",
+      "type": "string"
+    },
+    "cloud_connectivity": {
+      "description": "Cloud platform (AWS IoT, Azure IoT, proprietary)",
+      "type": "string"
+    },
+    "remote_monitoring": {
+      "description": "Remote monitoring and diagnostics capability",
+      "type": "string"
+    },
+    "smart_home_list": {
+      "description": "Smart home integrations (Alexa, Google, HomeKit, IFTTT)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ALEXA",
+          "GOOGLE",
+          "HOME_ASSISTANT",
+          "HOMEKIT",
+          "HUBITAT",
+          "IFTTT",
+          "MATTER",
+          "MQTT_BROKER",
+          "NONE",
+          "OPENHAB",
+          "PROPRIETARY",
+          "REST_API",
+          "SIRI",
+          "SMARTTHINGS",
+          "TUYA",
+          "WEBHOOKS",
+          "ZIGBEE_HUB",
+          "ZWAVE"
+        ]
+      }
+    },
+    "control_architecture": {
+      "description": "Control architecture (centralized, distributed, hybrid, cloud)",
+      "type": "string",
+      "enum": [
+        "BEHAV",
+        "CENT",
+        "CLOUD",
+        "DIST",
+        "EDGE",
+        "HIER",
+        "HYBRID",
+        "UNK"
+      ]
+    },
+    "controller_model": {
+      "description": "Robot controller model (IRC5, KRC5, CB5)",
+      "type": "string"
+    },
+    "control_programming_list": {
+      "description": "Programming methods (Python, C++, Blockly, teach mode)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "API_ONLY",
+          "BLOCKLY",
+          "C",
+          "CPP",
+          "CSHARP",
+          "GRAPHICAL",
+          "JAVA",
+          "LABVIEW",
+          "LADDER",
+          "MATLAB",
+          "NONE",
+          "NODE_RED",
+          "PROPRIETARY",
+          "PYTHON",
+          "ROS_PKG",
+          "SCRATCH",
+          "SCRIPT",
+          "SDK",
+          "TEACH_MODE"
+        ]
+      }
+    },
+    "programming_languages": {
+      "description": "Supported programming languages",
+      "type": "string"
+    },
+    "programming_difficulty": {
+      "description": "Programming difficulty level",
+      "type": "string"
+    },
+    "teach_pendant": {
+      "description": "Teach pendant model and features",
+      "type": "string"
+    },
+    "simulation_tools": {
+      "description": "Supported simulation tools (RobotStudio, Gazebo)",
+      "type": "string"
+    },
+    "collaboration": {
+      "description": "Collaborative mode (Power/Force Limited, Hand Guiding, etc.)",
+      "type": "string",
+      "enum": [
+        "FULL",
+        "HAND",
+        "NONE",
+        "POWER",
+        "SPEED",
+        "STOP"
+      ]
+    },
+    "interaction": {
+      "description": "Required human interaction time per day",
+      "type": "string",
+      "enum": [
+        "2HR",
+        "30MIN",
+        "5MIN",
+        "60MIN",
+        "AUTO",
+        "CONST"
+      ]
+    },
+    "adaptive_control": {
+      "description": "Adaptive control capability",
+      "type": "string"
+    },
+    "predictive_maintenance": {
+      "description": "Predictive maintenance features",
+      "type": "string"
+    },
+    "tech_sdk": {
+      "description": "SDK availability (Open Source, Free, Paid, Limited)",
+      "type": "string",
+      "enum": [
+        "FREE",
+        "LTD",
+        "NONE",
+        "OPEN",
+        "PAID",
+        "SOON"
+      ]
+    },
+    "software_platform": {
+      "description": "Primary software/OS (ROS2, Ubuntu, Windows, Proprietary)",
+      "type": "string",
+      "enum": [
+        "ANDROID",
+        "BARE_METAL",
+        "FREERTOS",
+        "IOS",
+        "LINUX_RT",
+        "NONE",
+        "PROPRIETARY",
+        "QNX",
+        "RASPBIAN",
+        "ROS1",
+        "ROS2",
+        "UBUNTU",
+        "VXWORKS",
+        "WINDOWS",
+        "WINDOWS_IOT",
+        "YOCTO"
+      ]
+    },
+    "operating_system_list": {
+      "description": "Supported operating systems",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ANDROID",
+          "BARE_METAL",
+          "FREERTOS",
+          "IOS",
+          "LINUX_RT",
+          "NONE",
+          "PROPRIETARY",
+          "QNX",
+          "RASPBIAN",
+          "ROS1",
+          "ROS2",
+          "UBUNTU",
+          "VXWORKS",
+          "WINDOWS",
+          "WINDOWS_IOT",
+          "YOCTO",
+          "OTHER"
+        ]
+      }
+    },
+    "ros_package_list": {
+      "description": "ROS/ROS2 packages and compatibility (MoveIt, Nav2, Gazebo)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "CONTROL",
+          "CUSTOM_PKG",
+          "DIAGNOSTICS",
+          "DRIVERS",
+          "GAZEBO",
+          "IGNITION",
+          "INDUSTRIAL",
+          "MOVEIT",
+          "MOVEIT2",
+          "NONE",
+          "NAV_STACK",
+          "NAV2",
+          "PERCEPTION",
+          "ROS1_KINETIC",
+          "ROS1_MELODIC",
+          "ROS1_NOETIC",
+          "ROS2_CONTROL",
+          "ROS2_DASHING",
+          "ROS2_ELOQUENT",
+          "ROS2_FOXY",
+          "ROS2_GALACTIC",
+          "ROS2_HUMBLE",
+          "ROS2_IRON",
+          "ROS2_JAZZY",
+          "RVIZ",
+          "RVIZ2",
+          "SLAM_TOOLBOX",
+          "TF",
+          "URDF",
+          "XACRO"
+        ]
+      }
+    },
+    "sys_lang_list": {
+      "description": "Available user interface languages",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ar",
+          "bg",
+          "bn",
+          "cs",
+          "da",
+          "de",
+          "el",
+          "en",
+          "es",
+          "fa",
+          "fi",
+          "fr",
+          "gu",
+          "he",
+          "hi",
+          "hr",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "jv",
+          "km",
+          "ko",
+          "mr",
+          "ms",
+          "my",
+          "nl",
+          "no",
+          "pa",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "sk",
+          "sr",
+          "sv",
+          "ta",
+          "te",
+          "th",
+          "tl",
+          "tr",
+          "uk",
+          "ur",
+          "vi",
+          "zh"
+        ]
+      }
+    },
+    "sensor_list": {
+      "description": "All sensor types (camera, LiDAR, IMU, ultrasonic, force/torque)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ACCELEROMETER",
+          "BUMPER",
+          "CAM_2D",
+          "CAM_3D",
+          "CLIFF",
+          "CURRENT",
+          "ENCODER",
+          "FLOW",
+          "FORCE_TORQUE",
+          "GAS",
+          "GPS",
+          "HALL_EFFECT",
+          "HUMIDITY",
+          "IMU",
+          "INFRARED",
+          "LIDAR_2D",
+          "LIDAR_3D",
+          "LIGHT",
+          "LOAD_CELL",
+          "MAGNETOMETER",
+          "MICROPHONE",
+          "MMWAVE",
+          "NONE",
+          "PIR",
+          "POTENTIOMETER",
+          "PRESSURE",
+          "PROXIMITY",
+          "RADAR",
+          "RAIN",
+          "RGBD",
+          "STEREO",
+          "TACTILE",
+          "TEMPERATURE",
+          "THERMAL",
+          "ULTRASONIC",
+          "VOLTAGE"
+        ]
+      }
+    },
+    "sensors": {
+      "description": "Free-text sensor description",
+      "type": "string"
+    },
+    "vision_system": {
+      "description": "Vision system type and description",
+      "type": "string"
+    },
+    "vision_system_list": {
+      "description": "Vision capabilities (face detection, object recognition, SLAM)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "3D_RECON",
+          "ANOMALY_DET",
+          "BLOB_DETECT",
+          "COLOR_DET",
+          "DEPTH_EST",
+          "FACE_DETECT",
+          "FACE_RECOG",
+          "FEATURE_TRACK",
+          "GESTURE",
+          "INSTANCE_SEG",
+          "LINE_DETECT",
+          "MOTION_DET",
+          "NONE",
+          "OBJ_RECOG",
+          "OCR",
+          "OPTICAL_FLOW",
+          "PEOPLE_TRACK",
+          "POSE_EST",
+          "QR_BARCODE",
+          "SCENE_UNDER",
+          "SEMANTIC_SEG",
+          "TEMPLATE_MATCH",
+          "VISUAL_SLAM"
+        ]
+      }
+    },
+    "camera_specs": {
+      "description": "Camera specifications (resolution, FPS, FOV)",
+      "type": "string"
+    },
+    "lidar_specs": {
+      "description": "LiDAR specifications (range, points/sec, channels)",
+      "type": "string"
+    },
+    "force_torque_sensor": {
+      "description": "Force-torque sensor specs (6-axis, sensitivity)",
+      "type": "string"
+    },
+    "form_factor": {
+      "description": "Physical form factor description",
+      "type": "string"
+    },
+    "autonomy": {
+      "description": "Autonomy level L0â€“L5 (see codes in Section 1)",
+      "type": "string",
+      "enum": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ]
+    },
+    "autonomy_level_text": {
+      "description": "Detailed autonomy level explanation",
+      "type": "string"
+    },
+    "ai_capabilities": {
+      "description": "Free-text AI capability description",
+      "type": "string"
+    },
+    "ai_capabilities_list": {
+      "description": "AI features (computer vision, ML, NLP, SLAM, path optimization)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ADAPTIVE",
+          "ANOMALY_AI",
+          "CLOUD_AI",
+          "CV",
+          "DECISION_TREE",
+          "DL",
+          "EDGE_AI",
+          "EMOTION_AI",
+          "EXPERT_SYS",
+          "FEDERATED",
+          "FUZZY_LOGIC",
+          "GENERATIVE",
+          "ML",
+          "NONE",
+          "NEURAL_NET",
+          "NLP",
+          "PATH_OPT",
+          "PERCEPTION",
+          "PLANNING",
+          "PRED_MAINT",
+          "REASONING",
+          "RL",
+          "SWARM_AI",
+          "TRANSFER_LEARN",
+          "VOICE_RECOG",
+          "VOICE_SYNTH"
+        ]
+      }
+    },
+    "machine_learning_enabled": {
+      "description": "Uses machine learning on-device or in-cloud",
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "edge_computing": {
+      "description": "On-board compute (NVIDIA Jetson, Intel NUC)",
+      "type": "string"
+    },
+    "learning_curve": {
+      "description": "Time to learn operation (<1hr, 1 day, 1â€“2 weeks, etc.)",
+      "type": "string",
+      "enum": [
+        "1D",
+        "1H",
+        "1M",
+        "2W",
+        "4H",
+        "4W",
+        "5D"
+      ]
+    },
+    "skill_level_required": {
+      "description": "Required operator skill (None, Basic, Expert, Certified)",
+      "type": "string",
+      "enum": [
+        "ADV",
+        "BASIC",
+        "CERT",
+        "EXPERT",
+        "INTER",
+        "NONE"
+      ]
+    },
+    "training_available": {
+      "description": "Available training programs and certification",
+      "type": "string"
+    },
+    "processor_list": {
+      "description": "Processor types (Intel, ARM, NVIDIA Jetson, FPGA)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ARM_A53",
+          "ARM_A57",
+          "ARM_A72",
+          "ARM_M4",
+          "ARM_M7",
+          "DSP",
+          "ESP32",
+          "FPGA",
+          "INTEL_ATOM",
+          "INTEL_I3",
+          "INTEL_I5",
+          "INTEL_I7",
+          "INTEL_XEON",
+          "NONE",
+          "NVIDIA_JETSON",
+          "NVIDIA_ORIN",
+          "NVIDIA_XAVIER",
+          "PROPRIETARY",
+          "RPI4",
+          "RPI5",
+          "STM32"
+        ]
+      }
+    },
+    "actuator_type_list": {
+      "description": "Actuator types (servo, stepper, linear, pneumatic, hydraulic)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AC",
+          "BLDC",
+          "DC",
+          "DIRECT_DRIVE",
+          "HARMONIC",
+          "HYDRAULIC",
+          "LINEAR",
+          "NONE",
+          "PIEZO",
+          "PNEUMATIC",
+          "SERVO",
+          "SMA",
+          "STEPPER",
+          "VOICE_COIL"
+        ]
+      }
+    },
+    "motor_specs": {
+      "description": "Motor specifications (type, torque, RPM)",
+      "type": "string"
+    },
+    "gripper_type": {
+      "description": "Gripper type (parallel, vacuum, magnetic, soft)",
+      "type": "string"
+    },
+    "end_effector_type": {
+      "description": "Tool/end effector type (welding torch, spray gun)",
+      "type": "string"
+    },
+    "end_effector_compatibility": {
+      "description": "Compatible end effectors and interfaces",
+      "type": "string"
+    },
+    "tool_interface": {
+      "description": "Mechanical tool interface standard (ISO 9409)",
+      "type": "string"
+    },
+    "drive_type": {
+      "description": "Drive mechanism (direct drive, harmonic, belt)",
+      "type": "string"
+    },
+    "best_features": {
+      "description": "Top features highlighted by manufacturer",
+      "type": "string"
+    },
+    "unique_features": {
+      "description": "Distinctive/unique features",
+      "type": "string"
+    },
+    "innovation_highlights": {
+      "description": "Key innovation highlights",
+      "type": "string"
+    },
+    "collaborative_features": {
+      "description": "Collaborative features for human-robot interaction",
+      "type": "string"
+    },
+    "modular_design": {
+      "description": "Modular design capability and reconfigurability",
+      "type": "string"
+    },
+    "customization_options": {
+      "description": "Available customization options",
+      "type": "string"
+    },
+    "upgrade_options": {
+      "description": "Available hardware/software upgrades",
+      "type": "string"
+    },
+    "interoperability": {
+      "description": "Interoperability with other systems and robots",
+      "type": "string"
+    },
+    "installation_type_list": {
+      "description": "Mounting/installation methods (floor, ceiling, wall, cart, rail)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "CART_MOUNT",
+          "CEILING_MOUNT",
+          "CLAMP_MOUNT",
+          "CRANE_MOUNT",
+          "CUSTOM_FOUND",
+          "FLOOR_MOUNT",
+          "FREE_STAND",
+          "GANTRY",
+          "INTEGRATED",
+          "MAGNETIC",
+          "MOBILE",
+          "MODULAR",
+          "NONE",
+          "PEDESTAL",
+          "POLE_MOUNT",
+          "RACK_MOUNT",
+          "RAIL_SYSTEM",
+          "SUSPENDED",
+          "TABLE_MOUNT",
+          "VEHICLE_MOUNT",
+          "WALL_MOUNT"
+        ]
+      }
+    },
+    "space_required_class": {
+      "description": "Minimum space needed (Desktop, <1mÂ², 1â€“4mÂ², Room, Outdoor)",
+      "type": "string",
+      "enum": [
+        "100M2",
+        "10M2",
+        "1M2",
+        "25M2",
+        "4M2",
+        "DESK",
+        "LARGE",
+        "OUT",
+        "ROOM"
+      ]
+    },
+    "setup_time": {
+      "description": "Time to set up (<30min, 2hrs, 1â€“3 days, Professional)",
+      "type": "string",
+      "enum": [
+        "2HR",
+        "30MIN",
+        "3DAY",
+        "7DAY",
+        "8HR",
+        "PROF",
+        "WEEK"
+      ]
+    },
+    "cable_management": {
+      "description": "Cable management system description",
+      "type": "string"
+    },
+    "mod_friendly": {
+      "description": "Modification friendliness (Open, Encouraged, Limited, Locked)",
+      "type": "string",
+      "enum": [
+        "ENC",
+        "LOCK",
+        "LTD",
+        "MOD",
+        "OPEN"
+      ]
+    },
+    "price_amount_usd": {
+      "description": "Unit price",
+      "type": "number",
+      "minimum": 0
+    },
+    "price_range_min_usd": {
+      "description": "Minimum price range",
+      "type": "number",
+      "minimum": 0
+    },
+    "price_range_max_usd": {
+      "description": "Maximum price range",
+      "type": "number",
+      "minimum": 0
+    },
+    "pricetier_text": {
+      "description": "Price tier classification in words",
+      "type": "string"
+    },
+    "pricetier": {
+      "description": "Coded price tier (T1=<$100 to T12=>$1M)",
+      "type": "string",
+      "enum": [
+        "NONE",
+        "QUOTE",
+        "T1X",
+        "T10",
+        "T11",
+        "T12",
+        "T2X",
+        "T3X",
+        "T4X",
+        "T5X",
+        "T6X",
+        "T7X",
+        "T8X",
+        "T9X"
+      ]
+    },
+    "warranty_months": {
+      "description": "Warranty period (3/6/12/24/36/48/60 months, Lifetime)",
+      "type": "string",
+      "enum": [
+        "LIFE",
+        "W0X",
+        "W12",
+        "W24",
+        "W3X",
+        "W36",
+        "W48",
+        "W6X",
+        "W60"
+      ]
+    },
+    "roi": {
+      "description": "Return on investment estimate (<6mo to >5yr)",
+      "type": "string",
+      "enum": [
+        "12M",
+        "18M",
+        "24M",
+        "3YR",
+        "5YR",
+        "6M",
+        "NONE",
+        "OVER"
+      ]
+    },
+    "lead_time": {
+      "description": "Delivery lead time (In Stock to >12 months)",
+      "type": "string",
+      "enum": [
+        "12M",
+        "2MX",
+        "2WX",
+        "3MX",
+        "4WX",
+        "6MX",
+        "12P",
+        "STOCK"
+      ]
+    },
+    "availability": {
+      "description": "General availability status and regions",
+      "type": "string"
+    },
+    "available_regions_text": {
+      "description": "Regions/countries where available",
+      "type": "string"
+    },
+    "leasing_available": {
+      "description": "Whether leasing/rental options exist",
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "robot_as_a_service": {
+      "description": "Available as Robot-as-a-Service subscription",
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "maintenance_interval": {
+      "description": "Recommended interval (Monthly, Quarterly, Annual, None)",
+      "type": "string",
+      "enum": [
+        "2YR",
+        "ANN",
+        "MON",
+        "NEED",
+        "NONE",
+        "QTR",
+        "SEMI"
+      ]
+    },
+    "calibration_interval": {
+      "description": "How often calibration is needed",
+      "type": "string"
+    },
+    "maintenance_requirements": {
+      "description": "Required maintenance tasks (lubrication, belts, calibration)",
+      "type": "string"
+    },
+    "consum_req_list": {
+      "description": "Required consumables (filters, brushes, lubricants, belts)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "BAGS",
+          "BATTERIES",
+          "BEARINGS",
+          "BELTS",
+          "BRUSHES",
+          "CABLES",
+          "CLEANING_SOL",
+          "CUTTING",
+          "FILTERS",
+          "GRIPPER_TIPS",
+          "LUBRICANTS",
+          "NONE",
+          "PADS",
+          "SEALS",
+          "SENSORS",
+          "WEAR_PARTS",
+          "WELDING"
+        ]
+      }
+    },
+    "spare_parts_avail": {
+      "description": "Spare parts availability (Readily Available, OEM Only, Limited)",
+      "type": "string",
+      "enum": [
+        "LONG",
+        "LTD",
+        "NONE",
+        "OEM",
+        "READY",
+        "THIRD"
+      ]
+    },
+    "spare_parts_availability": {
+      "description": "Detailed spare parts availability info",
+      "type": "string"
+    },
+    "support_types_list": {
+      "description": "Support options (email, phone, on-site, 24/7, SLA)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "24_7",
+          "CERTIFICATION",
+          "CHAT",
+          "EMAIL",
+          "FORUM",
+          "KNOWLEDGE_BASE",
+          "NONE",
+          "ONLINE_DOCS",
+          "ONSITE",
+          "PARTNER_NET",
+          "PHONE",
+          "REMOTE",
+          "SLA",
+          "SPARE_PARTS",
+          "TRAINING",
+          "VIDEO_TUT",
+          "WARRANTY"
+        ]
+      }
+    },
+    "service_option_list": {
+      "description": "Service plans (preventative, premium, extended warranty)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ANNUAL",
+          "BASIC",
+          "CALIBRATION",
+          "EXT_WARRANTY",
+          "INSPECTION",
+          "LABOR_ONLY",
+          "LEASE",
+          "NONE",
+          "PARTS_LABOR",
+          "PARTS_ONLY",
+          "PER_INCIDENT",
+          "PREMIUM",
+          "PREVENTATIVE",
+          "REFURB",
+          "RENTAL",
+          "SUBSCRIPTION",
+          "TRADE_IN",
+          "TRAINING_SVC",
+          "UPGRADE"
+        ]
+      }
+    },
+    "training_list": {
+      "description": "Available training (on-site, online, certification, VR)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AR Training",
+          "Bootcamp",
+          "Certification Program",
+          "Custom Training",
+          "Documentation Only",
+          "In-person Training",
+          "Live Online",
+          "Mentorship",
+          "NONE",
+          "On-site Training",
+          "Online Course",
+          "Online Videos",
+          "Quick Start Session",
+          "Refresher Course",
+          "Self-paced Learning",
+          "Simulation Software",
+          "Train the Trainer",
+          "VR Training",
+          "Webinars",
+          "Workshops"
+        ]
+      }
+    },
+    "demo_avail_list": {
+      "description": "Demo options (showroom, video, free trial, rental)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "CUSTOM_DEMO",
+          "DEMO_UNIT",
+          "DIGITAL_TWIN",
+          "FREE_TRIAL",
+          "LAB_VISIT",
+          "LIVE_DEMO",
+          "NONE",
+          "ONSITE_DEMO",
+          "PILOT_PROGRAM",
+          "POC",
+          "RENTAL",
+          "SANDBOX",
+          "SHOWROOM",
+          "SIMULATION",
+          "TRADE_SHOW",
+          "TRIAL",
+          "VIDEO_DEMO",
+          "VIRTUAL_DEMO",
+          "WEBINAR_DEMO"
+        ]
+      }
+    },
+    "manual_avail": {
+      "description": "User manual availability (Free Download, Registration, Physical)",
+      "type": "string",
+      "enum": [
+        "FREE",
+        "NONE",
+        "PHYS",
+        "PURCH",
+        "REG"
+      ]
+    },
+    "typical_use_cases": {
+      "description": "Primary applications (palletizing, welding, floor cleaning)",
+      "type": "string"
+    },
+    "application_examples": {
+      "description": "Specific application examples with context",
+      "type": "string"
+    },
+    "industries": {
+      "description": "Target industries (automotive, food & beverage, logistics)",
+      "type": "string"
+    },
+    "user_demographic_list": {
+      "description": "Target users (Enterprise, SMB, Home, Research, Education)",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "AGRICULTURE",
+          "CONSTRUCTION",
+          "CONSUMER",
+          "EDUCATION",
+          "ENERGY",
+          "ENTERPRISE",
+          "GOVERNMENT",
+          "HEALTHCARE",
+          "HOBBYIST",
+          "HOME",
+          "HOSPITALITY",
+          "INDUSTRIAL",
+          "LOGISTICS",
+          "MARINE",
+          "MINING",
+          "PROFESSIONAL",
+          "RESEARCH",
+          "RETAIL",
+          "SERVICE",
+          "SMB",
+          "SPACE",
+          "TRANSPORT"
+        ]
+      }
+    },
+    "competitive_advantages": {
+      "description": "Competitive advantages over alternatives",
+      "type": "string"
+    },
+    "limitations": {
+      "description": "Known limitations or constraints",
+      "type": "string"
+    },
+    "documentation_language": {
+      "description": "Languages documentation is available in",
+      "type": "string"
+    },
+    "certifications": {
+      "description": "General certifications held",
+      "type": "string"
+    },
+    "quality_certifications": {
+      "description": "Quality certifications (ISO 9001, etc.)",
+      "type": "string"
+    },
+    "standards_compliance": {
+      "description": "Standards compliance (ISO, IEC, ANSI)",
+      "type": "string"
+    },
+    "environmental_certifications": {
+      "description": "Environmental certifications (RoHS, WEEE)",
+      "type": "string"
+    },
+    "precision_class": {
+      "description": "Precision classification standard",
+      "type": "string"
+    },
+    "ease_of_use_rating": {
+      "description": "Ease of use rating (1â€“10 scale)",
+      "type": "number"
+    },
+    "flexibility_rating": {
+      "description": "Flexibility rating (1â€“10 scale)",
+      "type": "number"
+    },
+    "productivity_rating": {
+      "description": "Productivity rating (1â€“10 scale)",
+      "type": "number"
+    },
+    "integration_complexity": {
+      "description": "Integration complexity rating (1â€“10 scale)",
+      "type": "number",
+      "minimum": 0
+    },
+    "manufacturer_location": {
+      "description": "Manufacturer headquarters/factory location",
+      "type": "string"
+    },
+    "manufacturer_id": {
+      "description": "Internal manufacturer identifier",
+      "type": "string"
+    },
+    "expected_lifetime": {
+      "description": "Expected service lifetime (years)",
+      "type": "string"
+    },
+    "technology_generation": {
+      "description": "Technology generation number or name",
+      "type": "string"
+    },
+    "future_roadmap": {
+      "description": "Future development plans and roadmap",
+      "type": "string"
+    },
+    "research_papers_count": {
+      "description": "Number of academic papers citing this robot",
+      "type": "integer",
+      "minimum": 0
+    },
+    "research_collaborations": {
+      "description": "Research collaborations and partnerships",
+      "type": "string"
+    },
+    "patent_technologies": {
+      "description": "Patented technologies used in this robot",
+      "type": "string"
+    },
+    "api_doc": {
+      "type": "string",
+      "description": "API documentation availability",
+      "enum": [
+        "BASIC",
+        "EXCEL",
+        "GRAPH",
+        "LTD",
+        "NONE",
+        "REST",
+        "SDK"
+      ]
+    },
+    "scale": {
+      "type": "string",
+      "description": "Physical size classification",
+      "enum": [
+        "DS",
+        "HU",
+        "IF",
+        "MD",
+        "MG",
+        "MI",
+        "ML",
+        "MN",
+        "NN",
+        "OV",
+        "PM",
+        "SM",
+        "VH"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

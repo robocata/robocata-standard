@@ -1,0 +1,37 @@
+{
+  "field": "autonomy",
+  "version": "1.0",
+  "total_options": 6,
+  "options": [
+    {
+      "code": "L0",
+      "label": "0 - Manual control only",
+      "description": "Requires constant human control with no autonomous features"
+    },
+    {
+      "code": "L1",
+      "label": "1 - Assisted operation",
+      "description": "Basic assistance features but requires human operation"
+    },
+    {
+      "code": "L2",
+      "label": "2 - Partial autonomy",
+      "description": "Can perform some tasks autonomously but needs human oversight"
+    },
+    {
+      "code": "L3",
+      "label": "3 - Conditional autonomy",
+      "description": "Autonomous in specific conditions or environments"
+    },
+    {
+      "code": "L4",
+      "label": "4 - High autonomy",
+      "description": "Mostly autonomous, human intervention only in edge cases"
+    },
+    {
+      "code": "L5",
+      "label": "5 - Full autonomy",
+      "description": "Completely autonomous operation without human intervention"
+    }
+  ]
+}

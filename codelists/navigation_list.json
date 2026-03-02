@@ -1,0 +1,117 @@
+{
+  "field": "navigation_list",
+  "version": "1.0",
+  "total_options": 22,
+  "options": [
+    {
+      "code": "BLUETOOTH",
+      "label": "Bluetooth Beacons",
+      "description": "Indoor navigation using Bluetooth beacons"
+    },
+    {
+      "code": "DGPS",
+      "label": "Differential GPS",
+      "description": "Enhanced GPS with ground-based corrections"
+    },
+    {
+      "code": "GPS",
+      "label": "GPS Navigation",
+      "description": "Global positioning system for outdoor navigation"
+    },
+    {
+      "code": "HYBRID",
+      "label": "Hybrid Navigation",
+      "description": "Combination of multiple navigation methods"
+    },
+    {
+      "code": "IMU",
+      "label": "IMU-Based",
+      "description": "Inertial measurement unit for orientation and movement"
+    },
+    {
+      "code": "LIDAR_2D",
+      "label": "2D LiDAR",
+      "description": "Navigation using 2D laser scanning"
+    },
+    {
+      "code": "LIDAR_3D",
+      "label": "3D LiDAR",
+      "description": "Navigation using 3D point cloud from LiDAR"
+    },
+    {
+      "code": "LINE_FOLLOW",
+      "label": "Line Following",
+      "description": "Following painted or magnetic lines on floor"
+    },
+    {
+      "code": "MANUAL",
+      "label": "Manual Control",
+      "description": "Human-operated without autonomous navigation"
+    },
+    {
+      "code": "MARKER",
+      "label": "Marker-Based",
+      "description": "Navigation using fiducial markers or QR codes"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "Navigation not relevant for this robot type"
+    },
+    {
+      "code": "ODOMETRY",
+      "label": "Wheel Odometry",
+      "description": "Dead reckoning using wheel encoder data"
+    },
+    {
+      "code": "RAIL",
+      "label": "Rail-Guided",
+      "description": "Movement constrained to physical rails or tracks"
+    },
+    {
+      "code": "RTK_GPS",
+      "label": "RTK GPS",
+      "description": "Real-time kinematic GPS for centimeter accuracy"
+    },
+    {
+      "code": "SLAM_2D",
+      "label": "2D SLAM",
+      "description": "Simultaneous localization and mapping in 2D plane"
+    },
+    {
+      "code": "SLAM_3D",
+      "label": "3D SLAM",
+      "description": "Full 3D simultaneous localization and mapping"
+    },
+    {
+      "code": "TEACH_PLAYBACK",
+      "label": "Teach & Playback",
+      "description": "Recorded and repeated path navigation"
+    },
+    {
+      "code": "UWB",
+      "label": "Ultra-Wideband",
+      "description": "Indoor positioning using UWB beacons"
+    },
+    {
+      "code": "VISION",
+      "label": "Vision-Based",
+      "description": "Computer vision for feature-based navigation"
+    },
+    {
+      "code": "VSLAM",
+      "label": "Visual SLAM",
+      "description": "SLAM using camera vision as primary sensor"
+    },
+    {
+      "code": "WIFI",
+      "label": "WiFi Positioning",
+      "description": "Location estimation using WiFi signal strength"
+    },
+    {
+      "code": "WIRE",
+      "label": "Wire-Guided",
+      "description": "Following buried wire with electromagnetic signal"
+    }
+  ]
+}

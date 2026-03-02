@@ -1,0 +1,187 @@
+{
+  "field": "sensor_list",
+  "version": "1.0",
+  "total_options": 36,
+  "options": [
+    {
+      "code": "ACCELEROMETER",
+      "label": "Accelerometer",
+      "description": "Linear acceleration sensor"
+    },
+    {
+      "code": "BUMPER",
+      "label": "Bumper/Contact",
+      "description": "Physical contact detection"
+    },
+    {
+      "code": "CAM_2D",
+      "label": "2D Camera",
+      "description": "Standard RGB camera for 2D imaging"
+    },
+    {
+      "code": "CAM_3D",
+      "label": "3D Camera/Depth",
+      "description": "Depth camera for 3D perception"
+    },
+    {
+      "code": "CLIFF",
+      "label": "Cliff Detection",
+      "description": "Drop-off or stair detection"
+    },
+    {
+      "code": "CURRENT",
+      "label": "Current Sensor",
+      "description": "Electrical current monitoring"
+    },
+    {
+      "code": "ENCODER",
+      "label": "Encoder",
+      "description": "Rotary or linear position encoder"
+    },
+    {
+      "code": "FLOW",
+      "label": "Flow Sensor",
+      "description": "Fluid or air flow measurement"
+    },
+    {
+      "code": "FORCE_TORQUE",
+      "label": "Force/Torque",
+      "description": "Multi-axis force and torque sensor"
+    },
+    {
+      "code": "GAS",
+      "label": "Gas/Chemical",
+      "description": "Gas or chemical detection sensor"
+    },
+    {
+      "code": "GPS",
+      "label": "GPS",
+      "description": "Global positioning system receiver"
+    },
+    {
+      "code": "HALL_EFFECT",
+      "label": "Hall Effect",
+      "description": "Magnetic field detection"
+    },
+    {
+      "code": "HUMIDITY",
+      "label": "Humidity",
+      "description": "Humidity sensor"
+    },
+    {
+      "code": "IMU",
+      "label": "IMU/Gyroscope",
+      "description": "Inertial measurement unit"
+    },
+    {
+      "code": "INFRARED",
+      "label": "Infrared",
+      "description": "IR proximity or distance sensor"
+    },
+    {
+      "code": "LIDAR_2D",
+      "label": "LIDAR 2D",
+      "description": "2D laser scanning sensor"
+    },
+    {
+      "code": "LIDAR_3D",
+      "label": "LIDAR 3D",
+      "description": "3D LIDAR for point cloud generation"
+    },
+    {
+      "code": "LIGHT",
+      "label": "Light Sensor",
+      "description": "Ambient light detection"
+    },
+    {
+      "code": "LOAD_CELL",
+      "label": "Load Cell",
+      "description": "Weight or force measurement"
+    },
+    {
+      "code": "MAGNETOMETER",
+      "label": "Magnetometer",
+      "description": "Magnetic field sensor/compass"
+    },
+    {
+      "code": "MICROPHONE",
+      "label": "Microphone",
+      "description": "Audio input sensor"
+    },
+    {
+      "code": "MMWAVE",
+      "label": "mmWave Radar",
+      "description": "Millimeter wave radar sensor"
+    },
+    {
+      "code": "NONE",
+      "label": "No sensors",
+      "description": "No sensors equipped"
+    },
+    {
+      "code": "PIR",
+      "label": "PIR Motion",
+      "description": "Passive infrared motion detector"
+    },
+    {
+      "code": "POTENTIOMETER",
+      "label": "Potentiometer",
+      "description": "Analog position sensor"
+    },
+    {
+      "code": "PRESSURE",
+      "label": "Pressure",
+      "description": "Pressure sensor"
+    },
+    {
+      "code": "PROXIMITY",
+      "label": "Proximity",
+      "description": "Near-field proximity sensor"
+    },
+    {
+      "code": "RADAR",
+      "label": "Radar",
+      "description": "Radio detection and ranging sensor"
+    },
+    {
+      "code": "RAIN",
+      "label": "Rain Sensor",
+      "description": "Moisture/rain detection"
+    },
+    {
+      "code": "RGBD",
+      "label": "RGB-D Camera",
+      "description": "Combined color and depth camera"
+    },
+    {
+      "code": "STEREO",
+      "label": "Stereo Vision",
+      "description": "Dual camera stereo vision system"
+    },
+    {
+      "code": "TACTILE",
+      "label": "Tactile",
+      "description": "Touch or pressure sensitive"
+    },
+    {
+      "code": "TEMPERATURE",
+      "label": "Temperature",
+      "description": "Temperature measurement sensor"
+    },
+    {
+      "code": "THERMAL",
+      "label": "Thermal Camera",
+      "description": "Infrared thermal imaging"
+    },
+    {
+      "code": "ULTRASONIC",
+      "label": "Ultrasonic",
+      "description": "Ultrasonic distance sensor"
+    },
+    {
+      "code": "VOLTAGE",
+      "label": "Voltage Sensor",
+      "description": "Voltage monitoring sensor"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "field": "info_status",
+  "version": "1.0",
+  "total_options": 6,
+  "options": [
+    {
+      "code": "DISC",
+      "label": "Discontinued",
+      "description": "Robot is no longer in production but may still be available as remaining stock or used"
+    },
+    {
+      "code": "LIMITED",
+      "label": "Limited Availability",
+      "description": "Robot is produced in small quantities or only available to specific customers or regions"
+    },
+    {
+      "code": "PREORD",
+      "label": "Pre-order",
+      "description": "Robot has been announced and can be ordered but is not yet shipping to customers"
+    },
+    {
+      "code": "PROD",
+      "label": "In Production",
+      "description": "Robot is currently being manufactured and is available for purchase through normal channels"
+    },
+    {
+      "code": "PROTO",
+      "label": "Prototype",
+      "description": "Robot exists as a working prototype or demonstration unit but is not yet commercially available"
+    },
+    {
+      "code": "SOON",
+      "label": "Coming Soon",
+      "description": "Robot has been officially announced with planned release but cannot yet be ordered"
+    }
+  ]
+}

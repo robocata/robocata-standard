@@ -1,0 +1,37 @@
+{
+  "field": "skill_level_required",
+  "version": "1.0",
+  "total_options": 6,
+  "options": [
+    {
+      "code": "ADV",
+      "label": "Advanced",
+      "description": "Requires significant expertise and training"
+    },
+    {
+      "code": "BASIC",
+      "label": "Basic User",
+      "description": "Requires basic training or manual reading"
+    },
+    {
+      "code": "CERT",
+      "label": "Certified Only",
+      "description": "Requires specific certification or license"
+    },
+    {
+      "code": "EXPERT",
+      "label": "Expert/Engineer",
+      "description": "Requires engineering degree or extensive expertise"
+    },
+    {
+      "code": "INTER",
+      "label": "Intermediate",
+      "description": "Requires technical knowledge and experience"
+    },
+    {
+      "code": "NONE",
+      "label": "No Experience",
+      "description": "Anyone can use without training"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "field": "multifloor",
+  "version": "1.0",
+  "total_options": 3,
+  "options": [
+    {
+      "code": "NONE",
+      "label": "Not applicable",
+      "description": "Not applicable for this robot type"
+    },
+    {
+      "code": "SINGLE",
+      "label": "Single Floor",
+      "description": "Limited to single floor operation"
+    },
+    {
+      "code": "MULTI",
+      "label": "Multi Floor",
+      "description": "Can navigate between floors independently"
+    }
+  ]
+}

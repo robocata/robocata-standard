@@ -1,0 +1,137 @@
+{
+  "field": "ai_capabilities_list",
+  "version": "1.0",
+  "total_options": 26,
+  "options": [
+    {
+      "code": "ADAPTIVE",
+      "label": "Adaptive Behavior",
+      "description": "Adapt to changing conditions"
+    },
+    {
+      "code": "ANOMALY_AI",
+      "label": "Anomaly Detection",
+      "description": "AI-based anomaly identification"
+    },
+    {
+      "code": "CLOUD_AI",
+      "label": "Cloud AI",
+      "description": "Cloud-based AI processing"
+    },
+    {
+      "code": "CV",
+      "label": "Computer Vision",
+      "description": "AI-powered visual processing"
+    },
+    {
+      "code": "DECISION_TREE",
+      "label": "Decision Trees",
+      "description": "Rule-based decision making"
+    },
+    {
+      "code": "DL",
+      "label": "Deep Learning",
+      "description": "Deep neural network capabilities"
+    },
+    {
+      "code": "EDGE_AI",
+      "label": "Edge AI",
+      "description": "On-device AI processing"
+    },
+    {
+      "code": "EMOTION_AI",
+      "label": "Emotion Recognition",
+      "description": "Detect and respond to emotions"
+    },
+    {
+      "code": "EXPERT_SYS",
+      "label": "Expert System",
+      "description": "Knowledge-based expert system"
+    },
+    {
+      "code": "FEDERATED",
+      "label": "Federated Learning",
+      "description": "Distributed learning across devices"
+    },
+    {
+      "code": "FUZZY_LOGIC",
+      "label": "Fuzzy Logic",
+      "description": "Fuzzy logic control systems"
+    },
+    {
+      "code": "GENERATIVE",
+      "label": "Generative AI",
+      "description": "Generate new content or solutions"
+    },
+    {
+      "code": "ML",
+      "label": "Machine Learning",
+      "description": "General machine learning algorithms"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No AI/ML capabilities"
+    },
+    {
+      "code": "NEURAL_NET",
+      "label": "Neural Networks",
+      "description": "Artificial neural network processing"
+    },
+    {
+      "code": "NLP",
+      "label": "Natural Language Processing",
+      "description": "Understanding and generating natural language"
+    },
+    {
+      "code": "PATH_OPT",
+      "label": "Path Optimization",
+      "description": "Optimize navigation and motion paths"
+    },
+    {
+      "code": "PERCEPTION",
+      "label": "Perception AI",
+      "description": "Advanced sensory perception"
+    },
+    {
+      "code": "PLANNING",
+      "label": "AI Planning",
+      "description": "Automated planning and scheduling"
+    },
+    {
+      "code": "PRED_MAINT",
+      "label": "Predictive Maintenance",
+      "description": "Predict maintenance needs from data"
+    },
+    {
+      "code": "REASONING",
+      "label": "Reasoning",
+      "description": "Logical reasoning capabilities"
+    },
+    {
+      "code": "RL",
+      "label": "Reinforcement Learning",
+      "description": "Learn from trial and error"
+    },
+    {
+      "code": "SWARM_AI",
+      "label": "Swarm Intelligence",
+      "description": "Collective behavior algorithms"
+    },
+    {
+      "code": "TRANSFER_LEARN",
+      "label": "Transfer Learning",
+      "description": "Apply pre-trained models"
+    },
+    {
+      "code": "VOICE_RECOG",
+      "label": "Voice Recognition",
+      "description": "Speech to text conversion"
+    },
+    {
+      "code": "VOICE_SYNTH",
+      "label": "Voice Synthesis",
+      "description": "Text to speech generation"
+    }
+  ]
+}

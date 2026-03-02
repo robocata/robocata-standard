@@ -1,0 +1,107 @@
+{
+  "field": "training_list",
+  "version": "1.0",
+  "total_options": 20,
+  "options": [
+    {
+      "code": "AR Training",
+      "label": "AR Training",
+      "description": "Augmented reality guided training"
+    },
+    {
+      "code": "Bootcamp",
+      "label": "Bootcamp",
+      "description": "Intensive multi-day training"
+    },
+    {
+      "code": "Certification Program",
+      "label": "Certification Program",
+      "description": "Formal certification with testing"
+    },
+    {
+      "code": "Custom Training",
+      "label": "Custom Training",
+      "description": "Tailored training programs"
+    },
+    {
+      "code": "Documentation Only",
+      "label": "Documentation Only",
+      "description": "Training through documentation"
+    },
+    {
+      "code": "In-person Training",
+      "label": "In-person Training",
+      "description": "Classroom training at provider location"
+    },
+    {
+      "code": "Live Online",
+      "label": "Live Online",
+      "description": "Real-time online instructor-led training"
+    },
+    {
+      "code": "Mentorship",
+      "label": "Mentorship",
+      "description": "One-on-one mentoring program"
+    },
+    {
+      "code": "NONE",
+      "label": "No Training",
+      "description": "No training provided"
+    },
+    {
+      "code": "On-site Training",
+      "label": "On-site Training",
+      "description": "Training at customer location"
+    },
+    {
+      "code": "Online Course",
+      "label": "Online Course",
+      "description": "Structured online learning course"
+    },
+    {
+      "code": "Online Videos",
+      "label": "Online Videos",
+      "description": "Pre-recorded video tutorials"
+    },
+    {
+      "code": "Quick Start Session",
+      "label": "Quick Start Session",
+      "description": "Brief introductory training"
+    },
+    {
+      "code": "Refresher Course",
+      "label": "Refresher Course",
+      "description": "Periodic update training"
+    },
+    {
+      "code": "Self-paced Learning",
+      "label": "Self-paced Learning",
+      "description": "Self-directed learning materials"
+    },
+    {
+      "code": "Simulation Software",
+      "label": "Simulation Software",
+      "description": "Training via simulation software"
+    },
+    {
+      "code": "Train the Trainer",
+      "label": "Train the Trainer",
+      "description": "Training for internal trainers"
+    },
+    {
+      "code": "VR Training",
+      "label": "VR Training",
+      "description": "Virtual reality training environment"
+    },
+    {
+      "code": "Webinars",
+      "label": "Webinars",
+      "description": "Live or recorded webinar sessions"
+    },
+    {
+      "code": "Workshops",
+      "label": "Workshops",
+      "description": "Hands-on workshop sessions"
+    }
+  ]
+}

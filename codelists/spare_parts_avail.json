@@ -1,0 +1,37 @@
+{
+  "field": "spare_parts_avail",
+  "version": "1.0",
+  "total_options": 6,
+  "options": [
+    {
+      "code": "LONG",
+      "label": "Available - Long Lead",
+      "description": "Parts available but with extended delivery time"
+    },
+    {
+      "code": "LTD",
+      "label": "Limited Availability",
+      "description": "Parts scarce or difficult to obtain"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Available",
+      "description": "Replacement parts no longer available"
+    },
+    {
+      "code": "OEM",
+      "label": "OEM Only",
+      "description": "Parts only available from original manufacturer"
+    },
+    {
+      "code": "READY",
+      "label": "Readily Available",
+      "description": "Parts available off-the-shelf from multiple sources"
+    },
+    {
+      "code": "THIRD",
+      "label": "Third Party Available",
+      "description": "Compatible parts available from third-party suppliers"
+    }
+  ]
+}

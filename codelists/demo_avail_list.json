@@ -1,0 +1,102 @@
+{
+  "field": "demo_avail_list",
+  "version": "1.0",
+  "total_options": 19,
+  "options": [
+    {
+      "code": "CUSTOM_DEMO",
+      "label": "Custom Demo",
+      "description": "Customized demonstration"
+    },
+    {
+      "code": "DEMO_UNIT",
+      "label": "Demo Unit",
+      "description": "Dedicated demo unit available"
+    },
+    {
+      "code": "DIGITAL_TWIN",
+      "label": "Digital Twin",
+      "description": "Digital twin for virtual testing"
+    },
+    {
+      "code": "FREE_TRIAL",
+      "label": "Free Trial",
+      "description": "Free trial period"
+    },
+    {
+      "code": "LAB_VISIT",
+      "label": "Lab Visit",
+      "description": "Visit to demonstration lab"
+    },
+    {
+      "code": "LIVE_DEMO",
+      "label": "Live Demo",
+      "description": "Live online demonstration"
+    },
+    {
+      "code": "NONE",
+      "label": "No Demo",
+      "description": "No demonstration available"
+    },
+    {
+      "code": "ONSITE_DEMO",
+      "label": "On-site Demo",
+      "description": "Demonstration at customer site"
+    },
+    {
+      "code": "PILOT_PROGRAM",
+      "label": "Pilot Program",
+      "description": "Extended pilot deployment"
+    },
+    {
+      "code": "POC",
+      "label": "Proof of Concept",
+      "description": "POC project available"
+    },
+    {
+      "code": "RENTAL",
+      "label": "Rental Program",
+      "description": "Short-term rental for evaluation"
+    },
+    {
+      "code": "SANDBOX",
+      "label": "Sandbox Environment",
+      "description": "Online sandbox for testing"
+    },
+    {
+      "code": "SHOWROOM",
+      "label": "Showroom Demo",
+      "description": "Demo at vendor showroom"
+    },
+    {
+      "code": "SIMULATION",
+      "label": "Simulation Available",
+      "description": "Software simulation for testing"
+    },
+    {
+      "code": "TRADE_SHOW",
+      "label": "Trade Show",
+      "description": "Demo at trade shows/exhibitions"
+    },
+    {
+      "code": "TRIAL",
+      "label": "Money-back Trial",
+      "description": "Purchase with return option"
+    },
+    {
+      "code": "VIDEO_DEMO",
+      "label": "Video Demo",
+      "description": "Pre-recorded demonstration videos"
+    },
+    {
+      "code": "VIRTUAL_DEMO",
+      "label": "Virtual Demo",
+      "description": "Interactive virtual demonstration"
+    },
+    {
+      "code": "WEBINAR_DEMO",
+      "label": "Webinar Demo",
+      "description": "Demo during webinar sessions"
+    }
+  ]
+}

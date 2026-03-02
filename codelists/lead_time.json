@@ -1,0 +1,47 @@
+{
+  "field": "lead_time",
+  "version": "1.0",
+  "total_options": 8,
+  "options": [
+    {
+      "code": "12M",
+      "label": "6-12 months",
+      "description": "Delivery within 6-12 months"
+    },
+    {
+      "code": "2MX",
+      "label": "1-2 months",
+      "description": "Delivery within 1-2 months"
+    },
+    {
+      "code": "2WX",
+      "label": "1-2 weeks",
+      "description": "Delivery within 1-2 weeks"
+    },
+    {
+      "code": "3MX",
+      "label": "2-3 months",
+      "description": "Delivery within 2-3 months"
+    },
+    {
+      "code": "4WX",
+      "label": "2-4 weeks",
+      "description": "Delivery within 2-4 weeks"
+    },
+    {
+      "code": "6MX",
+      "label": "3-6 months",
+      "description": "Delivery within 3-6 months"
+    },
+    {
+      "code": "12P",
+      "label": ">12 months",
+      "description": "Delivery takes more than 12 months"
+    },
+    {
+      "code": "STOCK",
+      "label": "In Stock",
+      "description": "Available immediately from inventory"
+    }
+  ]
+}

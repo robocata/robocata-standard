@@ -1,0 +1,102 @@
+{
+  "field": "control_programming_list",
+  "version": "1.0",
+  "total_options": 19,
+  "options": [
+    {
+      "code": "API_ONLY",
+      "label": "API Only",
+      "description": "Programming through API calls only"
+    },
+    {
+      "code": "BLOCKLY",
+      "label": "Blockly",
+      "description": "Google Blockly visual programming"
+    },
+    {
+      "code": "C",
+      "label": "C Language",
+      "description": "C programming language support"
+    },
+    {
+      "code": "CPP",
+      "label": "C++",
+      "description": "C++ programming language support"
+    },
+    {
+      "code": "CSHARP",
+      "label": "C#",
+      "description": "C# programming language support"
+    },
+    {
+      "code": "GRAPHICAL",
+      "label": "Graphical/Block",
+      "description": "Visual programming with blocks or flowcharts"
+    },
+    {
+      "code": "JAVA",
+      "label": "Java",
+      "description": "Java programming language support"
+    },
+    {
+      "code": "LABVIEW",
+      "label": "LabVIEW",
+      "description": "National Instruments LabVIEW"
+    },
+    {
+      "code": "LADDER",
+      "label": "Ladder Logic",
+      "description": "PLC-style ladder logic programming"
+    },
+    {
+      "code": "MATLAB",
+      "label": "MATLAB",
+      "description": "MATLAB/Simulink programming"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Programmable",
+      "description": "Device is not user-programmable"
+    },
+    {
+      "code": "NODE_RED",
+      "label": "Node-RED",
+      "description": "Flow-based development tool"
+    },
+    {
+      "code": "PROPRIETARY",
+      "label": "Proprietary",
+      "description": "Manufacturer's custom programming method"
+    },
+    {
+      "code": "PYTHON",
+      "label": "Python",
+      "description": "Python programming language support"
+    },
+    {
+      "code": "ROS_PKG",
+      "label": "ROS Package",
+      "description": "ROS package and node development"
+    },
+    {
+      "code": "SCRATCH",
+      "label": "Scratch",
+      "description": "MIT Scratch programming environment"
+    },
+    {
+      "code": "SCRIPT",
+      "label": "Script Language",
+      "description": "Proprietary scripting language"
+    },
+    {
+      "code": "SDK",
+      "label": "SDK Available",
+      "description": "Software development kit provided"
+    },
+    {
+      "code": "TEACH_MODE",
+      "label": "Teach Mode",
+      "description": "Physical guidance programming by demonstration"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "field": "setup_time",
+  "version": "1.0",
+  "total_options": 7,
+  "options": [
+    {
+      "code": "2HR",
+      "label": "30min - 2 hours",
+      "description": "Setup takes between 30 minutes and 2 hours"
+    },
+    {
+      "code": "30MIN",
+      "label": "<30 minutes",
+      "description": "Can be set up in less than 30 minutes"
+    },
+    {
+      "code": "3DAY",
+      "label": "1-3 days",
+      "description": "Setup takes 1 to 3 days"
+    },
+    {
+      "code": "7DAY",
+      "label": "3-7 days",
+      "description": "Installation requires 3 to 7 days"
+    },
+    {
+      "code": "8HR",
+      "label": "2-8 hours",
+      "description": "Installation requires 2 to 8 hours"
+    },
+    {
+      "code": "PROF",
+      "label": "Professional Required",
+      "description": "Must be installed by certified professional"
+    },
+    {
+      "code": "WEEK",
+      "label": ">1 week",
+      "description": "Setup takes more than one week"
+    }
+  ]
+}

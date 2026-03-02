@@ -1,0 +1,72 @@
+{
+  "field": "powersource_secondary_list",
+  "version": "1.0",
+  "total_options": 13,
+  "options": [
+    {
+      "code": "AC110",
+      "label": "AC Mains (110V)",
+      "description": "Powered by 110V AC electrical outlet (North America standard)"
+    },
+    {
+      "code": "AC220",
+      "label": "AC Mains (220V/230V)",
+      "description": "Powered by 220V/230V AC electrical outlet (Europe/Asia standard)"
+    },
+    {
+      "code": "AC380",
+      "label": "AC Mains (380V/3-phase)",
+      "description": "Industrial 3-phase power supply"
+    },
+    {
+      "code": "DC",
+      "label": "DC Power Supply",
+      "description": "Direct current power supply"
+    },
+    {
+      "code": "FUEL",
+      "label": "Fuel Cell",
+      "description": "Hydrogen or other fuel cell technology"
+    },
+    {
+      "code": "HYBRID",
+      "label": "Hybrid",
+      "description": "Combination of multiple power sources"
+    },
+    {
+      "code": "HYDR",
+      "label": "Hydraulic",
+      "description": "Hydraulic fluid powered"
+    },
+    {
+      "code": "LEAD",
+      "label": "Battery (Lead-acid)",
+      "description": "Lead-acid rechargeable battery"
+    },
+    {
+      "code": "LION",
+      "label": "Battery (Li-ion)",
+      "description": "Lithium-ion rechargeable battery"
+    },
+    {
+      "code": "LIPO",
+      "label": "Battery (Li-Po)",
+      "description": "Lithium-polymer rechargeable battery"
+    },
+    {
+      "code": "NIMH",
+      "label": "Battery (NiMH)",
+      "description": "Nickel-metal hydride rechargeable battery"
+    },
+    {
+      "code": "PNEUM",
+      "label": "Pneumatic",
+      "description": "Compressed air powered"
+    },
+    {
+      "code": "SOLAR",
+      "label": "Solar",
+      "description": "Solar panels for power generation"
+    }
+  ]
+}

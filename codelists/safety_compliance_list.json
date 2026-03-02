@@ -1,0 +1,87 @@
+{
+  "field": "safety_compliance_list",
+  "version": "1.0",
+  "total_options": 16,
+  "options": [
+    {
+      "code": "AEC_Q100",
+      "label": "AEC-Q100",
+      "description": "Automotive electronics quality standard"
+    },
+    {
+      "code": "ATEX",
+      "label": "ATEX",
+      "description": "Explosive atmospheres directive compliant"
+    },
+    {
+      "code": "FDA",
+      "label": "FDA Approved",
+      "description": "US Food and Drug Administration approved"
+    },
+    {
+      "code": "FOOD_EU",
+      "label": "Food Grade (EU)",
+      "description": "EU food contact regulation compliant"
+    },
+    {
+      "code": "FOOD_FDA",
+      "label": "Food Grade (FDA)",
+      "description": "FDA food contact compliant materials"
+    },
+    {
+      "code": "GMP",
+      "label": "GMP",
+      "description": "Good Manufacturing Practice compliant"
+    },
+    {
+      "code": "HACCP",
+      "label": "HACCP",
+      "description": "Hazard Analysis Critical Control Points"
+    },
+    {
+      "code": "ISO1",
+      "label": "Cleanroom ISO 1",
+      "description": "ISO 14644-1 Class 1 cleanroom compatible"
+    },
+    {
+      "code": "ISO3",
+      "label": "Cleanroom ISO 3",
+      "description": "ISO 14644-1 Class 3 cleanroom compatible"
+    },
+    {
+      "code": "ISO5",
+      "label": "Cleanroom ISO 5",
+      "description": "ISO 14644-1 Class 5 cleanroom compatible"
+    },
+    {
+      "code": "ISO7",
+      "label": "Cleanroom ISO 7",
+      "description": "ISO 14644-1 Class 7 cleanroom compatible"
+    },
+    {
+      "code": "MDC_I",
+      "label": "Medical Device Class I",
+      "description": "FDA Class I medical device"
+    },
+    {
+      "code": "MDC_II",
+      "label": "Medical Device Class II",
+      "description": "FDA Class II medical device"
+    },
+    {
+      "code": "MDC_III",
+      "label": "Medical Device Class III",
+      "description": "FDA Class III medical device"
+    },
+    {
+      "code": "MIL_STD",
+      "label": "MIL-STD",
+      "description": "Military standard specification compliant"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No specific industry compliance"
+    }
+  ]
+}

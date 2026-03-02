@@ -1,0 +1,52 @@
+{
+  "field": "space_required_class",
+  "version": "1.0",
+  "total_options": 9,
+  "options": [
+    {
+      "code": "100M2",
+      "label": "25-100mÂ²",
+      "description": "Requires 25 to 100 square meters"
+    },
+    {
+      "code": "10M2",
+      "label": "4-10mÂ²",
+      "description": "Requires 4 to 10 square meters"
+    },
+    {
+      "code": "1M2",
+      "label": "<1mÂ²",
+      "description": "Requires less than 1 square meter"
+    },
+    {
+      "code": "25M2",
+      "label": "10-25mÂ²",
+      "description": "Needs 10 to 25 square meters"
+    },
+    {
+      "code": "4M2",
+      "label": "1-4mÂ²",
+      "description": "Needs 1 to 4 square meters"
+    },
+    {
+      "code": "DESK",
+      "label": "Desktop/Tabletop",
+      "description": "Fits on a desk or table"
+    },
+    {
+      "code": "LARGE",
+      "label": ">100mÂ²",
+      "description": "Needs more than 100 square meters"
+    },
+    {
+      "code": "OUT",
+      "label": "Outdoor Only",
+      "description": "Only operates outdoors"
+    },
+    {
+      "code": "ROOM",
+      "label": "Entire Room",
+      "description": "Requires dedicated room"
+    }
+  ]
+}

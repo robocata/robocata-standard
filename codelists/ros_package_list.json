@@ -1,0 +1,157 @@
+{
+  "field": "ros_package_list",
+  "version": "1.0",
+  "total_options": 30,
+  "options": [
+    {
+      "code": "CONTROL",
+      "label": "ROS Control",
+      "description": "ros_control framework"
+    },
+    {
+      "code": "CUSTOM_PKG",
+      "label": "Custom Packages",
+      "description": "Proprietary ROS packages"
+    },
+    {
+      "code": "DIAGNOSTICS",
+      "label": "Diagnostics",
+      "description": "ROS diagnostics support"
+    },
+    {
+      "code": "DRIVERS",
+      "label": "ROS Drivers",
+      "description": "Hardware driver packages"
+    },
+    {
+      "code": "GAZEBO",
+      "label": "Gazebo Models",
+      "description": "Gazebo simulation models"
+    },
+    {
+      "code": "IGNITION",
+      "label": "Ignition Gazebo",
+      "description": "Ignition Gazebo support"
+    },
+    {
+      "code": "INDUSTRIAL",
+      "label": "ROS Industrial",
+      "description": "ROS-Industrial packages"
+    },
+    {
+      "code": "MOVEIT",
+      "label": "MoveIt Compatible",
+      "description": "MoveIt motion planning framework"
+    },
+    {
+      "code": "MOVEIT2",
+      "label": "MoveIt2 Compatible",
+      "description": "MoveIt2 for ROS2"
+    },
+    {
+      "code": "NONE",
+      "label": "No ROS Support",
+      "description": "Not compatible with ROS"
+    },
+    {
+      "code": "NAV_STACK",
+      "label": "Navigation Stack",
+      "description": "ROS navigation stack compatible"
+    },
+    {
+      "code": "NAV2",
+      "label": "Nav2",
+      "description": "ROS2 Navigation stack"
+    },
+    {
+      "code": "PERCEPTION",
+      "label": "Perception Stack",
+      "description": "ROS perception packages"
+    },
+    {
+      "code": "ROS1_KINETIC",
+      "label": "ROS1 Kinetic",
+      "description": "ROS1 Kinetic Kame support"
+    },
+    {
+      "code": "ROS1_MELODIC",
+      "label": "ROS1 Melodic",
+      "description": "ROS1 Melodic Morenia support"
+    },
+    {
+      "code": "ROS1_NOETIC",
+      "label": "ROS1 Noetic",
+      "description": "ROS1 Noetic Ninjemys support"
+    },
+    {
+      "code": "ROS2_CONTROL",
+      "label": "ROS2 Control",
+      "description": "ros2_control framework"
+    },
+    {
+      "code": "ROS2_DASHING",
+      "label": "ROS2 Dashing",
+      "description": "ROS2 Dashing Diademata support"
+    },
+    {
+      "code": "ROS2_ELOQUENT",
+      "label": "ROS2 Eloquent",
+      "description": "ROS2 Eloquent Elusor support"
+    },
+    {
+      "code": "ROS2_FOXY",
+      "label": "ROS2 Foxy",
+      "description": "ROS2 Foxy Fitzroy support"
+    },
+    {
+      "code": "ROS2_GALACTIC",
+      "label": "ROS2 Galactic",
+      "description": "ROS2 Galactic Geochelone support"
+    },
+    {
+      "code": "ROS2_HUMBLE",
+      "label": "ROS2 Humble",
+      "description": "ROS2 Humble Hawksbill support"
+    },
+    {
+      "code": "ROS2_IRON",
+      "label": "ROS2 Iron",
+      "description": "ROS2 Iron Irwini support"
+    },
+    {
+      "code": "ROS2_JAZZY",
+      "label": "ROS2 Jazzy",
+      "description": "ROS2 Jazzy Jalisco support"
+    },
+    {
+      "code": "RVIZ",
+      "label": "RViz Compatible",
+      "description": "RViz visualization support"
+    },
+    {
+      "code": "RVIZ2",
+      "label": "RViz2 Compatible",
+      "description": "RViz2 for ROS2"
+    },
+    {
+      "code": "SLAM_TOOLBOX",
+      "label": "SLAM Toolbox",
+      "description": "SLAM toolbox integration"
+    },
+    {
+      "code": "TF",
+      "label": "TF/TF2",
+      "description": "Transform library support"
+    },
+    {
+      "code": "URDF",
+      "label": "URDF Available",
+      "description": "URDF robot description"
+    },
+    {
+      "code": "XACRO",
+      "label": "Xacro Files",
+      "description": "Xacro macro files"
+    }
+  ]
+}

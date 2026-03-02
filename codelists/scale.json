@@ -1,0 +1,72 @@
+{
+  "field": "scale",
+  "version": "1.0",
+  "total_options": 13,
+  "options": [
+    {
+      "code": "DS",
+      "label": "Desk",
+      "description": "Desktop-sized"
+    },
+    {
+      "code": "HU",
+      "label": "Human",
+      "description": "Human-scale"
+    },
+    {
+      "code": "IF",
+      "label": "Infra",
+      "description": "Infrastructure-scale"
+    },
+    {
+      "code": "MD",
+      "label": "Medium",
+      "description": "Medium-sized (waist height)"
+    },
+    {
+      "code": "MG",
+      "label": "Mega",
+      "description": "Very large industrial"
+    },
+    {
+      "code": "MI",
+      "label": "Micro",
+      "description": "Microscopic scale"
+    },
+    {
+      "code": "ML",
+      "label": "Milli",
+      "description": "Millimeter scale"
+    },
+    {
+      "code": "MN",
+      "label": "Mini",
+      "description": "Small portable robot"
+    },
+    {
+      "code": "NN",
+      "label": "Nano",
+      "description": "Nanoscale"
+    },
+    {
+      "code": "OV",
+      "label": "Oversized",
+      "description": "Larger than a vehicle"
+    },
+    {
+      "code": "PM",
+      "label": "Palm",
+      "description": "Fits in one hand"
+    },
+    {
+      "code": "SM",
+      "label": "Small",
+      "description": "Small floor robot"
+    },
+    {
+      "code": "VH",
+      "label": "Vehicle",
+      "description": "Vehicle-sized"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "field": "domain",
+  "version": "1.0",
+  "total_options": 3,
+  "options": [
+    {
+      "code": "HOME",
+      "label": "Home & Consumer",
+      "description": "Robots for personal/household use by individual consumers"
+    },
+    {
+      "code": "IND",
+      "label": "Industrial & Manufacturing",
+      "description": "Robots for production, assembly, heavy industry, warehousing"
+    },
+    {
+      "code": "PRO",
+      "label": "Professional & Services",
+      "description": "Robots for business services, healthcare, agriculture, education, research"
+    }
+  ]
+}

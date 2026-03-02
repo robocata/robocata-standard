@@ -1,0 +1,122 @@
+{
+  "field": "vision_system_list",
+  "version": "1.0",
+  "total_options": 23,
+  "options": [
+    {
+      "code": "3D_RECON",
+      "label": "3D Reconstruction",
+      "description": "Build 3D models from visual data"
+    },
+    {
+      "code": "ANOMALY_DET",
+      "label": "Anomaly Detection",
+      "description": "Detect visual anomalies or defects"
+    },
+    {
+      "code": "BLOB_DETECT",
+      "label": "Blob Detection",
+      "description": "Detect and analyze blob shapes"
+    },
+    {
+      "code": "COLOR_DET",
+      "label": "Color Detection",
+      "description": "Identify and differentiate colors"
+    },
+    {
+      "code": "DEPTH_EST",
+      "label": "Depth Estimation",
+      "description": "Estimate depth from visual information"
+    },
+    {
+      "code": "FACE_DETECT",
+      "label": "Face Detection",
+      "description": "Detect presence of faces without identification"
+    },
+    {
+      "code": "FACE_RECOG",
+      "label": "Face Recognition",
+      "description": "Detect and identify human faces"
+    },
+    {
+      "code": "FEATURE_TRACK",
+      "label": "Feature Tracking",
+      "description": "Track specific visual features over time"
+    },
+    {
+      "code": "GESTURE",
+      "label": "Gesture Recognition",
+      "description": "Recognize hand gestures and body movements"
+    },
+    {
+      "code": "INSTANCE_SEG",
+      "label": "Instance Segmentation",
+      "description": "Individual object instance identification"
+    },
+    {
+      "code": "LINE_DETECT",
+      "label": "Line Detection",
+      "description": "Detect lines and edges for navigation"
+    },
+    {
+      "code": "MOTION_DET",
+      "label": "Motion Detection",
+      "description": "Detect movement in the visual field"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No vision system capabilities"
+    },
+    {
+      "code": "OBJ_RECOG",
+      "label": "Object Recognition",
+      "description": "Identify and classify objects in images"
+    },
+    {
+      "code": "OCR",
+      "label": "Text/OCR",
+      "description": "Optical character recognition for reading text"
+    },
+    {
+      "code": "OPTICAL_FLOW",
+      "label": "Optical Flow",
+      "description": "Analyze pattern of motion between frames"
+    },
+    {
+      "code": "PEOPLE_TRACK",
+      "label": "People Tracking",
+      "description": "Track and follow human subjects"
+    },
+    {
+      "code": "POSE_EST",
+      "label": "Pose Estimation",
+      "description": "Estimate object or human pose/orientation"
+    },
+    {
+      "code": "QR_BARCODE",
+      "label": "QR/Barcode Reading",
+      "description": "Read QR codes and various barcode formats"
+    },
+    {
+      "code": "SCENE_UNDER",
+      "label": "Scene Understanding",
+      "description": "High-level scene interpretation"
+    },
+    {
+      "code": "SEMANTIC_SEG",
+      "label": "Semantic Segmentation",
+      "description": "Pixel-level scene understanding"
+    },
+    {
+      "code": "TEMPLATE_MATCH",
+      "label": "Template Matching",
+      "description": "Match predefined visual templates"
+    },
+    {
+      "code": "VISUAL_SLAM",
+      "label": "Visual SLAM",
+      "description": "Visual simultaneous localization and mapping"
+    }
+  ]
+}

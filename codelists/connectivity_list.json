@@ -1,0 +1,132 @@
+{
+  "field": "connectivity_list",
+  "version": "1.0",
+  "total_options": 25,
+  "options": [
+    {
+      "code": "4G_LTE",
+      "label": "4G/LTE",
+      "description": "Cellular 4G/LTE connectivity"
+    },
+    {
+      "code": "5G",
+      "label": "5G",
+      "description": "5G cellular connectivity"
+    },
+    {
+      "code": "BT",
+      "label": "Bluetooth",
+      "description": "Bluetooth wireless connection"
+    },
+    {
+      "code": "BT_LE",
+      "label": "Bluetooth LE",
+      "description": "Bluetooth Low Energy for power efficiency"
+    },
+    {
+      "code": "CAN",
+      "label": "CAN Bus",
+      "description": "Controller Area Network bus"
+    },
+    {
+      "code": "DEVICENET",
+      "label": "DeviceNet",
+      "description": "Industrial network protocol"
+    },
+    {
+      "code": "ETH",
+      "label": "Ethernet",
+      "description": "Wired Ethernet connection (RJ45)"
+    },
+    {
+      "code": "ETHERCAT",
+      "label": "EtherCAT",
+      "description": "Real-time Ethernet fieldbus"
+    },
+    {
+      "code": "IR",
+      "label": "Infrared",
+      "description": "Infrared communication"
+    },
+    {
+      "code": "LORA",
+      "label": "LoRa/LoRaWAN",
+      "description": "Long-range low-power wireless"
+    },
+    {
+      "code": "MODBUS",
+      "label": "Modbus",
+      "description": "Modbus RTU or TCP protocol"
+    },
+    {
+      "code": "MQTT",
+      "label": "MQTT",
+      "description": "Message Queuing Telemetry Transport protocol"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Connected",
+      "description": "No connectivity options"
+    },
+    {
+      "code": "NFC",
+      "label": "NFC",
+      "description": "Near Field Communication"
+    },
+    {
+      "code": "OPCUA",
+      "label": "OPC UA",
+      "description": "Open Platform Communications Unified Architecture"
+    },
+    {
+      "code": "PROFIBUS",
+      "label": "PROFIBUS",
+      "description": "Process field bus standard"
+    },
+    {
+      "code": "PROFINET",
+      "label": "PROFINET",
+      "description": "Industrial Ethernet standard by Siemens"
+    },
+    {
+      "code": "RS232",
+      "label": "RS-232",
+      "description": "Serial RS-232 communication"
+    },
+    {
+      "code": "RS485",
+      "label": "RS-485",
+      "description": "Industrial RS-485 serial bus"
+    },
+    {
+      "code": "USB",
+      "label": "USB",
+      "description": "USB connection for data and/or power"
+    },
+    {
+      "code": "USB_C",
+      "label": "USB-C",
+      "description": "USB Type-C connection"
+    },
+    {
+      "code": "WIFI",
+      "label": "WiFi",
+      "description": "Wireless WiFi connectivity (802.11)"
+    },
+    {
+      "code": "WIFI6",
+      "label": "WiFi 6",
+      "description": "Latest WiFi 6/6E standard support"
+    },
+    {
+      "code": "WIFI7",
+      "label": "WiFi 7",
+      "description": "Latest WiFi 7 standard support"
+    },
+    {
+      "code": "ZIGBEE",
+      "label": "Zigbee",
+      "description": "Low-power mesh network protocol"
+    }
+  ]
+}

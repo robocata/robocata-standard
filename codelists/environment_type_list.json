@@ -1,0 +1,127 @@
+{
+  "field": "environment_type_list",
+  "version": "1.0",
+  "total_options": 24,
+  "options": [
+    {
+      "code": "ALL_WEATHER",
+      "label": "All Weather",
+      "description": "Any weather conditions"
+    },
+    {
+      "code": "CHEMICAL",
+      "label": "Chemical",
+      "description": "Chemical exposure environments"
+    },
+    {
+      "code": "CLEANROOM",
+      "label": "Clean Room",
+      "description": "Cleanroom compatible"
+    },
+    {
+      "code": "CORROSIVE",
+      "label": "Corrosive",
+      "description": "Corrosive chemical exposure"
+    },
+    {
+      "code": "DUSTY",
+      "label": "Dusty",
+      "description": "Dusty or particulate environments"
+    },
+    {
+      "code": "EXPLOSIVE",
+      "label": "Explosive Atmosphere",
+      "description": "Potentially explosive environments"
+    },
+    {
+      "code": "EXTREME_TEMP",
+      "label": "Extreme Temperature",
+      "description": "Very high or low temperatures"
+    },
+    {
+      "code": "FOOD_SAFE",
+      "label": "Food Safe",
+      "description": "Food processing environments"
+    },
+    {
+      "code": "HAZARDOUS",
+      "label": "Hazardous",
+      "description": "Dangerous or hazardous areas"
+    },
+    {
+      "code": "HIGH_TEMP",
+      "label": "High Temperature",
+      "description": "High temperature operation"
+    },
+    {
+      "code": "INDOOR",
+      "label": "Indoor",
+      "description": "Standard indoor environments"
+    },
+    {
+      "code": "LOW_TEMP",
+      "label": "Low Temperature",
+      "description": "Cold/freezer environments"
+    },
+    {
+      "code": "MAGNETIC",
+      "label": "Magnetic Field",
+      "description": "Strong magnetic field areas"
+    },
+    {
+      "code": "MARINE",
+      "label": "Marine",
+      "description": "Maritime/saltwater environments"
+    },
+    {
+      "code": "OFFICE",
+      "label": "Office",
+      "description": "Standard office environment"
+    },
+    {
+      "code": "OUTDOOR",
+      "label": "Outdoor",
+      "description": "Outdoor operation capable"
+    },
+    {
+      "code": "PHARMA",
+      "label": "Pharmaceutical",
+      "description": "Pharmaceutical production areas"
+    },
+    {
+      "code": "RADIATION",
+      "label": "Radiation",
+      "description": "Radiation exposure areas"
+    },
+    {
+      "code": "SPACE",
+      "label": "Space/Vacuum",
+      "description": "Space or vacuum operation"
+    },
+    {
+      "code": "STERILE",
+      "label": "Sterile",
+      "description": "Sterile medical/lab environments"
+    },
+    {
+      "code": "UNDERGROUND",
+      "label": "Underground",
+      "description": "Mines, tunnels, underground"
+    },
+    {
+      "code": "UNDERWATER",
+      "label": "Underwater",
+      "description": "Submersible operation"
+    },
+    {
+      "code": "VIBRATION",
+      "label": "High Vibration",
+      "description": "High vibration environments"
+    },
+    {
+      "code": "WET_HUMID",
+      "label": "Wet/Humid",
+      "description": "High moisture environments"
+    }
+  ]
+}

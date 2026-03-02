@@ -1,0 +1,152 @@
+{
+  "field": "category",
+  "version": "1.0",
+  "total_options": 29,
+  "options": [
+    {
+      "code": "AGR",
+      "label": "Agricultural",
+      "description": "Farming, harvesting, crop management"
+    },
+    {
+      "code": "CARE",
+      "label": "Personal Care",
+      "description": "Health monitoring, personal assistance"
+    },
+    {
+      "code": "CHILD",
+      "label": "Childcare & Education",
+      "description": "Child supervision, home education"
+    },
+    {
+      "code": "CLEAN",
+      "label": "Commercial Cleaning",
+      "description": "Office, industrial, public space"
+    },
+    {
+      "code": "COMP",
+      "label": "Companion",
+      "description": "Social, emotional companionship"
+    },
+    {
+      "code": "CONST",
+      "label": "Construction & Building",
+      "description": "Building, demolition, site work"
+    },
+    {
+      "code": "COOK",
+      "label": "Kitchen & Cooking",
+      "description": "Food preparation, cooking"
+    },
+    {
+      "code": "EDU",
+      "label": "Educational",
+      "description": "Teaching, training, STEM"
+    },
+    {
+      "code": "ENT",
+      "label": "Entertainment & Gaming",
+      "description": "Fun, games, recreation"
+    },
+    {
+      "code": "HCLEAN",
+      "label": "Home Cleaning",
+      "description": "Residential cleaning (vacuuming, mopping)"
+    },
+    {
+      "code": "HEAVY",
+      "label": "Heavy Industry",
+      "description": "Mining, steel, foundry"
+    },
+    {
+      "code": "HOSP",
+      "label": "Hospitality & Food Service",
+      "description": "Hotels, restaurants, food service"
+    },
+    {
+      "code": "INFRA",
+      "label": "Infrastructure & Utilities",
+      "description": "Power, water, telecom maintenance"
+    },
+    {
+      "code": "LAB",
+      "label": "Laboratory & Research",
+      "description": "Scientific research, lab automation"
+    },
+    {
+      "code": "LAND",
+      "label": "Landscaping & Grounds",
+      "description": "Commercial landscaping"
+    },
+    {
+      "code": "MED",
+      "label": "Medical & Healthcare",
+      "description": "Surgery, rehabilitation, patient care"
+    },
+    {
+      "code": "OFF",
+      "label": "Office & Business",
+      "description": "Office automation, telepresence"
+    },
+    {
+      "code": "PACK",
+      "label": "Packaging & Logistics",
+      "description": "Palletizing, sorting, warehouse"
+    },
+    {
+      "code": "PROD",
+      "label": "Production & Assembly",
+      "description": "Manufacturing, assembly lines"
+    },
+    {
+      "code": "QC",
+      "label": "Quality Control",
+      "description": "Inspection, testing, measurement"
+    },
+    {
+      "code": "RET",
+      "label": "Retail & Commerce",
+      "description": "Store operations, customer service"
+    },
+    {
+      "code": "SPORTH",
+      "label": "Sports & Fitness (Home)",
+      "description": "Home fitness, personal training"
+    },
+    {
+      "code": "SPORTP",
+      "label": "Sports (Professional)",
+      "description": "Professional sports, training"
+    },
+    {
+      "code": "SQH",
+      "label": "Home Security",
+      "description": "Residential security, patrol"
+    },
+    {
+      "code": "SQP",
+      "label": "Security (Professional)",
+      "description": "Commercial/industrial security"
+    },
+    {
+      "code": "TRANS",
+      "label": "Transportation & Delivery",
+      "description": "Delivery, logistics, last-mile"
+    },
+    {
+      "code": "VET",
+      "label": "Veterinary & Animal Care",
+      "description": "Animal healthcare, livestock"
+    },
+    {
+      "code": "WELD",
+      "label": "Welding & Fabrication",
+      "description": "Welding, cutting, metal work"
+    },
+    {
+      "code": "YARD",
+      "label": "Yard & Garden",
+      "description": "Lawn care, garden maintenance"
+    }
+  ]
+}

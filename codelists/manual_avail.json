@@ -1,0 +1,32 @@
+{
+  "field": "manual_avail",
+  "version": "1.0",
+  "total_options": 5,
+  "options": [
+    {
+      "code": "FREE",
+      "label": "Free Download",
+      "description": "Manual freely available for download without registration"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Available",
+      "description": "No manual or documentation available"
+    },
+    {
+      "code": "PHYS",
+      "label": "Included Physical",
+      "description": "Physical manual included with product"
+    },
+    {
+      "code": "PURCH",
+      "label": "Purchase Only",
+      "description": "Manual must be purchased separately"
+    },
+    {
+      "code": "REG",
+      "label": "Registration Required",
+      "description": "Must register account to access manual"
+    }
+  ]
+}

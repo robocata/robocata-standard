@@ -1,0 +1,27 @@
+{
+  "field": "pet_safe",
+  "version": "1.0",
+  "total_options": 4,
+  "options": [
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "Not applicable"
+    },
+    {
+      "code": "NOT",
+      "label": "Not Pet Safe",
+      "description": "Not safe for pets"
+    },
+    {
+      "code": "PREC",
+      "label": "With Precautions",
+      "description": "Safe with proper precautions and supervision"
+    },
+    {
+      "code": "YES",
+      "label": "Pet Safe",
+      "description": "Designed to be safe around pets"
+    }
+  ]
+}

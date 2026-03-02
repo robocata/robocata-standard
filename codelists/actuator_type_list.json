@@ -1,0 +1,77 @@
+{
+  "field": "actuator_type_list",
+  "version": "1.0",
+  "total_options": 14,
+  "options": [
+    {
+      "code": "AC",
+      "label": "AC Motor",
+      "description": "Industrial grade, high power applications"
+    },
+    {
+      "code": "BLDC",
+      "label": "Brushless DC Motor",
+      "description": "High efficiency, low maintenance, good for continuous operation"
+    },
+    {
+      "code": "DC",
+      "label": "DC Motor",
+      "description": "Simple brushed DC motor, basic speed control"
+    },
+    {
+      "code": "DIRECT_DRIVE",
+      "label": "Direct Drive Motor",
+      "description": "No gearbox, motor directly coupled to load"
+    },
+    {
+      "code": "HARMONIC",
+      "label": "Harmonic Drive",
+      "description": "High gear reduction with zero backlash"
+    },
+    {
+      "code": "HYDRAULIC",
+      "label": "Hydraulic Actuator",
+      "description": "High force output using pressurized fluid, heavy-duty applications"
+    },
+    {
+      "code": "LINEAR",
+      "label": "Linear Actuator",
+      "description": "Direct linear motion without rotation conversion"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No actuators present or not specified"
+    },
+    {
+      "code": "PIEZO",
+      "label": "Piezoelectric Actuator",
+      "description": "Ultra-precise nano-positioning using piezoelectric effect"
+    },
+    {
+      "code": "PNEUMATIC",
+      "label": "Pneumatic Actuator",
+      "description": "Compressed air driven, fast and clean for light loads"
+    },
+    {
+      "code": "SERVO",
+      "label": "Servo Motor",
+      "description": "High precision position control with feedback, common in robotics"
+    },
+    {
+      "code": "SMA",
+      "label": "Shape Memory Alloy",
+      "description": "Temperature-activated shape change for compact actuation"
+    },
+    {
+      "code": "STEPPER",
+      "label": "Stepper Motor",
+      "description": "Precise incremental movement without feedback, cost-effective"
+    },
+    {
+      "code": "VOICE_COIL",
+      "label": "Voice Coil Motor",
+      "description": "Fast, precise linear motion for small displacements"
+    }
+  ]
+}

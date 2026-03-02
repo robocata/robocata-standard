@@ -1,0 +1,92 @@
+{
+  "field": "consum_req_list",
+  "version": "1.0",
+  "total_options": 17,
+  "options": [
+    {
+      "code": "BAGS",
+      "label": "Collection Bags",
+      "description": "Dust or waste collection bags"
+    },
+    {
+      "code": "BATTERIES",
+      "label": "Batteries",
+      "description": "Replaceable battery packs"
+    },
+    {
+      "code": "BEARINGS",
+      "label": "Bearings",
+      "description": "Ball or roller bearings"
+    },
+    {
+      "code": "BELTS",
+      "label": "Belts",
+      "description": "Drive belts require periodic replacement"
+    },
+    {
+      "code": "BRUSHES",
+      "label": "Brushes",
+      "description": "Cleaning brushes wear and need replacement"
+    },
+    {
+      "code": "CABLES",
+      "label": "Cables",
+      "description": "Wear cables that need replacement"
+    },
+    {
+      "code": "CLEANING_SOL",
+      "label": "Cleaning Solution",
+      "description": "Liquid cleaning products"
+    },
+    {
+      "code": "CUTTING",
+      "label": "Cutting Tools",
+      "description": "Blades, bits, cutting implements"
+    },
+    {
+      "code": "FILTERS",
+      "label": "Filters",
+      "description": "Air, HEPA, or other filters need replacement"
+    },
+    {
+      "code": "GRIPPER_TIPS",
+      "label": "Gripper Tips",
+      "description": "End effector consumable parts"
+    },
+    {
+      "code": "LUBRICANTS",
+      "label": "Lubricants",
+      "description": "Oils, greases for maintenance"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No consumables required"
+    },
+    {
+      "code": "PADS",
+      "label": "Pads/Mops",
+      "description": "Cleaning pads or mop heads"
+    },
+    {
+      "code": "SEALS",
+      "label": "Seals/Gaskets",
+      "description": "Rubber seals and gaskets"
+    },
+    {
+      "code": "SENSORS",
+      "label": "Sensor Elements",
+      "description": "Consumable sensor components"
+    },
+    {
+      "code": "WEAR_PARTS",
+      "label": "Wear Parts",
+      "description": "General wear components"
+    },
+    {
+      "code": "WELDING",
+      "label": "Welding Supplies",
+      "description": "Wire, tips, gas for welding robots"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "field": "safety_feat_list",
+  "version": "1.0",
+  "total_options": 21,
+  "options": [
+    {
+      "code": "AUDIO_WARN",
+      "label": "Audio Warning",
+      "description": "Audible alerts and warnings"
+    },
+    {
+      "code": "BRAKE",
+      "label": "Safety Brake",
+      "description": "Fail-safe braking system"
+    },
+    {
+      "code": "COLLISION_DET",
+      "label": "Collision Detection",
+      "description": "Automatic collision detection and response"
+    },
+    {
+      "code": "DUAL_CHANNEL",
+      "label": "Dual Channel",
+      "description": "Redundant safety control channels"
+    },
+    {
+      "code": "ENABLING_DEV",
+      "label": "Enabling Device",
+      "description": "Three-position enabling device required"
+    },
+    {
+      "code": "ESTOP",
+      "label": "Emergency Stop",
+      "description": "Emergency stop button for immediate shutdown"
+    },
+    {
+      "code": "HAND_GUIDE",
+      "label": "Hand Guiding",
+      "description": "Safe hand-guided operation mode"
+    },
+    {
+      "code": "INTERLOCK",
+      "label": "Safety Interlock",
+      "description": "Mechanical or electrical interlocks"
+    },
+    {
+      "code": "LASER_SCANNER",
+      "label": "Laser Scanner",
+      "description": "Area laser scanner for presence detection"
+    },
+    {
+      "code": "LIGHT_CURTAIN",
+      "label": "Light Curtain",
+      "description": "Optical safety barrier detection"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No specific safety features"
+    },
+    {
+      "code": "PFL",
+      "label": "Power Force Limiting",
+      "description": "Limits force/torque to safe levels"
+    },
+    {
+      "code": "PROTECTIVE_STOP",
+      "label": "Protective Stop",
+      "description": "Monitored stop for safety functions"
+    },
+    {
+      "code": "SAFE_SPEED",
+      "label": "Safe Speed",
+      "description": "Safe limited speed operation"
+    },
+    {
+      "code": "SAFE_STOP",
+      "label": "Safe Stop",
+      "description": "Multiple safe stop categories (SS1, SS2)"
+    },
+    {
+      "code": "SAFE_TORQUE",
+      "label": "Safe Torque Off",
+      "description": "Safe torque off function (STO)"
+    },
+    {
+      "code": "SAFE_ZONES",
+      "label": "Safety Zones",
+      "description": "Configurable safety zones and boundaries"
+    },
+    {
+      "code": "SKIN_SENSOR",
+      "label": "Sensitive Skin",
+      "description": "Tactile/pressure sensitive skin"
+    },
+    {
+      "code": "SRMS",
+      "label": "Speed & Sep Monitor",
+      "description": "Speed and separation monitoring for collaboration"
+    },
+    {
+      "code": "VISION_SAFETY",
+      "label": "Vision Safety",
+      "description": "Camera-based safety monitoring"
+    },
+    {
+      "code": "VISUAL_WARN",
+      "label": "Visual Warning",
+      "description": "LED indicators and warning lights"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "field": "learning_curve",
+  "version": "1.0",
+  "total_options": 7,
+  "options": [
+    {
+      "code": "1D",
+      "label": "1 day",
+      "description": "Takes about a day to learn"
+    },
+    {
+      "code": "1H",
+      "label": "<1 hour",
+      "description": "Can be learned in less than an hour"
+    },
+    {
+      "code": "1M",
+      "label": ">1 month",
+      "description": "Takes more than a month to become proficient"
+    },
+    {
+      "code": "2W",
+      "label": "1-2 weeks",
+      "description": "Takes one to two weeks to master"
+    },
+    {
+      "code": "4H",
+      "label": "1-4 hours",
+      "description": "Requires a few hours of learning"
+    },
+    {
+      "code": "4W",
+      "label": "2-4 weeks",
+      "description": "Requires two to four weeks of practice"
+    },
+    {
+      "code": "5D",
+      "label": "2-5 days",
+      "description": "Requires several days of training"
+    }
+  ]
+}

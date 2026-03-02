@@ -1,0 +1,97 @@
+{
+  "field": "control_interface_list",
+  "version": "1.0",
+  "total_options": 18,
+  "options": [
+    {
+      "code": "API",
+      "label": "API Only",
+      "description": "Programmatic control through API only"
+    },
+    {
+      "code": "AR",
+      "label": "AR Interface",
+      "description": "Augmented reality control overlay"
+    },
+    {
+      "code": "BLUETOOTH_CTL",
+      "label": "Bluetooth Controller",
+      "description": "Generic Bluetooth control device"
+    },
+    {
+      "code": "CLI",
+      "label": "Command Line",
+      "description": "Command line interface for terminal control"
+    },
+    {
+      "code": "GESTURE",
+      "label": "Gesture Control",
+      "description": "Hand gesture or body movement recognition"
+    },
+    {
+      "code": "HMI_PANEL",
+      "label": "HMI Panel",
+      "description": "Industrial human-machine interface touchscreen"
+    },
+    {
+      "code": "JOYSTICK",
+      "label": "Joystick",
+      "description": "Physical joystick or gamepad controller"
+    },
+    {
+      "code": "MOBILE_ANDROID",
+      "label": "Android App",
+      "description": "Android mobile application"
+    },
+    {
+      "code": "MOBILE_IOS",
+      "label": "iOS App",
+      "description": "Apple iOS mobile application"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "No direct control interface"
+    },
+    {
+      "code": "PC_SW",
+      "label": "PC Software",
+      "description": "Desktop computer software interface"
+    },
+    {
+      "code": "PHYSICAL_BTN",
+      "label": "Physical Buttons",
+      "description": "On-device buttons and switches"
+    },
+    {
+      "code": "REMOTE_RC",
+      "label": "RC Remote",
+      "description": "Traditional radio control remote"
+    },
+    {
+      "code": "TEACH_PENDANT",
+      "label": "Teach Pendant",
+      "description": "Handheld programming device with physical controls"
+    },
+    {
+      "code": "TOUCHSCREEN",
+      "label": "Touchscreen",
+      "description": "On-device touchscreen interface"
+    },
+    {
+      "code": "VOICE",
+      "label": "Voice Control",
+      "description": "Speech recognition and voice commands"
+    },
+    {
+      "code": "VR",
+      "label": "VR Controller",
+      "description": "Virtual reality interface for immersive control"
+    },
+    {
+      "code": "WEB_IF",
+      "label": "Web Interface",
+      "description": "Browser-based control interface"
+    }
+  ]
+}

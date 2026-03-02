@@ -1,0 +1,42 @@
+{
+  "field": "maintenance_interval",
+  "version": "1.0",
+  "total_options": 7,
+  "options": [
+    {
+      "code": "2YR",
+      "label": "Every 2 Years",
+      "description": "Maintenance every two years"
+    },
+    {
+      "code": "ANN",
+      "label": "Annual",
+      "description": "Needs yearly maintenance"
+    },
+    {
+      "code": "MON",
+      "label": "Monthly",
+      "description": "Requires monthly maintenance"
+    },
+    {
+      "code": "NEED",
+      "label": "As Needed",
+      "description": "Condition-based maintenance when required"
+    },
+    {
+      "code": "NONE",
+      "label": "None Required",
+      "description": "Maintenance-free operation"
+    },
+    {
+      "code": "QTR",
+      "label": "Quarterly",
+      "description": "Needs maintenance every 3 months"
+    },
+    {
+      "code": "SEMI",
+      "label": "Semi-Annual",
+      "description": "Requires maintenance twice per year"
+    }
+  ]
+}

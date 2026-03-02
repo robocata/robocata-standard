@@ -1,0 +1,82 @@
+{
+  "field": "type",
+  "version": "1.0",
+  "total_options": 15,
+  "options": [
+    {
+      "code": "ARM",
+      "label": "Robotic Arm",
+      "description": "Fixed-base manipulator arm"
+    },
+    {
+      "code": "MOBI",
+      "label": "Mobile Platform",
+      "description": "Wheeled or tracked ground robot"
+    },
+    {
+      "code": "BIPD",
+      "label": "Biped",
+      "description": "Bipedal/humanoid walking robot"
+    },
+    {
+      "code": "QUAD",
+      "label": "Quadruped",
+      "description": "Four-legged walking robot"
+    },
+    {
+      "code": "HEXA",
+      "label": "Hexapod+",
+      "description": "Six or more legged robot"
+    },
+    {
+      "code": "AERI",
+      "label": "Aerial",
+      "description": "Flying robot (drone, VTOL, fixed-wing)"
+    },
+    {
+      "code": "AQUA",
+      "label": "Aquatic",
+      "description": "Underwater/surface water robot"
+    },
+    {
+      "code": "SERP",
+      "label": "Serpentine",
+      "description": "Snake-like, limbless robot"
+    },
+    {
+      "code": "SPHR",
+      "label": "Spherical",
+      "description": "Ball or rolling form factor"
+    },
+    {
+      "code": "SOFT",
+      "label": "Soft Robot",
+      "description": "Soft-bodied, flexible material robot"
+    },
+    {
+      "code": "WEAR",
+      "label": "Wearable",
+      "description": "Body-worn, exoskeleton, prosthetic"
+    },
+    {
+      "code": "VEHI",
+      "label": "Vehicle",
+      "description": "Autonomous vehicle platform"
+    },
+    {
+      "code": "APPL",
+      "label": "Appliance",
+      "description": "Robot built into appliance"
+    },
+    {
+      "code": "SWRM",
+      "label": "Swarm Unit",
+      "description": "Designed for swarm operations"
+    },
+    {
+      "code": "HYBR",
+      "label": "Hybrid",
+      "description": "Hybrid or multi-modal form factor"
+    }
+  ]
+}

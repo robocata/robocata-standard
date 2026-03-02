@@ -1,0 +1,47 @@
+{
+  "field": "tech_speedunit",
+  "version": "1.0",
+  "total_options": 8,
+  "options": [
+    {
+      "code": "CM_S",
+      "label": "cm/s",
+      "description": "Centimeters per sec for moderate speed measurements"
+    },
+    {
+      "code": "CYCLE",
+      "label": "cycles/min",
+      "description": "Complete cycles per minute for repetitive tasks"
+    },
+    {
+      "code": "M_S",
+      "label": "m/s",
+      "description": "Meters per second for faster linear movements"
+    },
+    {
+      "code": "M2H",
+      "label": "mÂ²/hour",
+      "description": "Square meters covered per hour, typically for cleaning robots"
+    },
+    {
+      "code": "MM_S",
+      "label": "mm/s",
+      "description": "Millimeters per second for precise linear movements"
+    },
+    {
+      "code": "NONE",
+      "label": "Not Applicable",
+      "description": "Speed measurement not applicable to this robot type"
+    },
+    {
+      "code": "RPM",
+      "label": "RPM",
+      "description": "Revolutions per minute for rotating components"
+    },
+    {
+      "code": "UPH",
+      "label": "units/hour",
+      "description": "Production units completed per hour"
+    }
+  ]
+}
