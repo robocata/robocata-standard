@@ -1,6 +1,30 @@
 title: RoboCata Standard
 description: An Open Global Standard for Cataloging Robots
+url: https://robocata.org
 remote_theme: pages-themes/cayman@v0.2.0
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 include:
   - "*.json"
   - "*.pdf"
+
+# SEO defaults
+author: RoboCata
+social:
+  name: RoboCata Standard
+  links:
+    - https://github.com/robocata/robocata-standard
+
+# Default front matter
+defaults:
+  - scope:
+      path: "docs"
+    values:
+      layout: default
+  - scope:
+      path: "codelists"
+    values:
+      sitemap: false

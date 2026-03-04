@@ -1,0 +1,48 @@
+<!-- Open Graph -->
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:site_name" content="RoboCata Standard">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description }}">
+
+<!-- Additional SEO -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="robot standard, robot catalog, robotics specification, JSON schema, robot classification, open standard, robotics taxonomy, industrial robots, robot database">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "name": "RoboCata Standard",
+  "headline": "An Open Global Standard for Cataloging Robots",
+  "description": "RoboCata Standard V1.0 defines a unified, machine-readable framework for classifying and specifying robots across industrial, professional, and consumer markets.",
+  "url": "https://robocata.org",
+  "datePublished": "2026-03-01",
+  "dateModified": "2026-03-04",
+  "version": "1.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Martin Smit"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "RoboCata"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "Robotics Standards"
+  },
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "keywords": ["robotics", "open standard", "robot classification", "JSON Schema", "robot catalog", "industrial robots", "robot taxonomy"]
+}
+</script>

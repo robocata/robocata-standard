@@ -1,0 +1,51 @@
+# RoboCata Standard
+> An Open Global Standard for Cataloging Robots — V1.0 (March 2026)
+
+RoboCata Standard defines a unified, machine-readable framework for classifying and specifying robots across industrial, professional, and consumer markets. It provides a JSON Schema with 300+ fields, standardized taxonomies (15 robot types, 3 domains, 29 application categories), and a unique Robot Code identifier format.
+
+## Key URLs
+
+- Specification: https://robocata.org/
+- JSON Schema: https://robocata.org/schema/robocata.robot.v1.schema.json
+- GitHub Repository: https://github.com/robocata/robocata-standard
+- PDF Documentation: https://robocata.org/pdf/RoboCata-Standard-V1.pdf
+
+## Documentation
+
+- Full Specification (24 sections): https://robocata.org/docs/specification
+- Conformance Requirements: https://robocata.org/docs/conformance
+- Governance & Licensing: https://robocata.org/docs/governance
+- Appendix A - Data Types: https://robocata.org/docs/appendix-a-data-types
+- Appendix B - Unit Conventions: https://robocata.org/docs/appendix-b-unit-conventions
+- Appendix C - Code Format: https://robocata.org/docs/appendix-c-code-format
+
+## Examples
+
+- Minimal Robot Record: https://robocata.org/examples/robot.minimal.json
+- Industrial Arm (ABB IRB 1400): https://robocata.org/examples/robot.industrial-arm.json
+- Mobile Platform: https://robocata.org/examples/robot.mobile-platform.json
+- Home Cleaning Robot: https://robocata.org/examples/robot.home-cleaning.json
+
+## Robot Code Format
+
+Pattern: RBC-TT-CC-XXXXXXX
+- RBC = RoboCata prefix
+- TT = Type code (ARM, MOBI, BIPD, QUAD, HEXA, AERI, AQUA, SERP, SPHR, SOFT, WEAR, VEHI, APPL, SWRM, HYBR)
+- CC = Domain code (IND, PRO, HOME)
+- XXXXXXX = Unique identifier
+
+## Classification Taxonomy
+
+### 15 Robot Types
+ARM (Articulated Arm), MOBI (Mobile Platform), BIPD (Bipedal/Humanoid), QUAD (Quadruped), HEXA (Hexapod), AERI (Aerial/Drone), AQUA (Aquatic/Underwater), SERP (Serpentine), SPHR (Spherical), SOFT (Soft Robot), WEAR (Wearable/Exoskeleton), VEHI (Autonomous Vehicle), APPL (Appliance Robot), SWRM (Swarm Robot), HYBR (Hybrid)
+
+### 3 Domains
+IND (Industrial), PRO (Professional/Commercial), HOME (Consumer/Home)
+
+### 29 Application Categories
+AGR (Agriculture), CARE (Elderly/Patient Care), CHILD (Childcare), CLEAN (Commercial Cleaning), COMP (Companion), CONST (Construction), COOK (Cooking), EDU (Education), ENT (Entertainment), HCLEAN (Home Cleaning), HEAVY (Heavy Industry), HOSP (Hospitality), INFRA (Infrastructure Inspection), LAB (Laboratory), LAND (Landscaping), MED (Medical/Surgical), OFF (Office), PACK (Packaging/Palletizing), PROD (Production/Manufacturing), QC (Quality Control), RET (Retail), SPORTH (Home Sport/Fitness), SPORTP (Professional Sport/Fitness), SQH (Home Security), SQP (Professional Security), TRANS (Transport/Logistics), VET (Veterinary), WELD (Welding), YARD (Yard Maintenance)
+
+## License
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+Copyright 2026 Martin Smit / RoboCata
