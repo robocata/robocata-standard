@@ -17,6 +17,7 @@ social:
   name: RoboCata Standard
   links:
     - https://github.com/robocata/robocata-standard
+    - https://robocata.com
 
 # Default front matter
 defaults:

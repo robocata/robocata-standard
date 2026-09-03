@@ -207,7 +207,7 @@ print('Valid!')
 
 **robocata.org** — The RoboCata Standard. This open specification, its schema, and governance documentation. Maintained as a public standard.
 
-**robocata.com** — The RoboCata Catalog. A commercial implementation of the standard. The catalog is one of potentially many implementations and does not define the standard.
+**[robocata.com](https://robocata.com)** — The RoboCata Catalog. A commercial implementation of the standard. The catalog is one of potentially many implementations and does not define the standard.
 
 The standard exists independently of any implementation.
 
@@ -222,6 +222,7 @@ You are free to share and adapt the standard for any purpose, including commerci
 - **Standard website:** [https://robocata.org](https://robocata.org)
 - **Email:** [standard@robocata.org](mailto:standard@robocata.org)
 - **GitHub:** [https://github.com/robocata/robocata-standard](https://github.com/robocata/robocata-standard)
+- **Catalog implementation:** [https://robocata.com](https://robocata.com)
 
 ---
 
